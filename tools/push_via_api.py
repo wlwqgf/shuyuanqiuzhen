@@ -139,9 +139,39 @@ def main() -> int:
         print("dry-run 完成，未调用 API")
         return 0
 
-    if reset:
+    # ---- 空仓库处理 ----
+    # GitHub 不允许在空仓库直接创建 git 对象（409 Git Repository is empty），
+    # 先用 Contents API 建一个初始提交解锁，首个 commit 挂到它下面。
+    st, refs = api("GET", f"/repos/{OWNER}/{REPO}/git/refs", token)
+    refs_list = refs if isinstance(refs, list) else []
+    repo_empty = (st != 200) or (len(refs_list) == 0)
+    main_exists = any(r.get("ref") == f"refs/heads/{BRANCH}" for r in refs_list)
+
+    if main_exists and not reset:
+        print(f"远端 {BRANCH} 已存在历史，且未指定 --reset；为防止覆盖远端历史，中止。")
+        print("确认要重推请执行：python tools/push_via_api.py --reset")
+        return 1
+
+    init_sha = None
+    if reset and main_exists:
         st, _ = api("DELETE", f"/repos/{OWNER}/{REPO}/git/refs/heads/{BRANCH}", token)
         print(f"--reset: 删除远端 {BRANCH} -> HTTP {st}（404=原本就不存在，正常）")
+        repo_empty = True
+
+    if repo_empty:
+        readme_b64 = base64.b64encode(
+            "# FinCheck\n\n初始化提交（技术性）：GitHub 不允许在空仓库直接创建 git 对象，\n"
+            "此提交用于解锁该限制，随后由 push_via_api.py 经 Git Data API 重建完整历史。\n"
+            .encode("utf-8")
+        ).decode("ascii")
+        st, r = api("PUT", f"/repos/{OWNER}/{REPO}/contents/README.md", token,
+                    {"message": "chore: 初始化仓库（API 备用通道解锁空仓库限制）",
+                     "content": readme_b64})
+        if st != 201:
+            print(f"  初始提交失败 -> HTTP {st} {r}")
+            return 1
+        init_sha = r["commit"]["sha"]
+        print(f"空仓库已解锁：初始提交 {init_sha[:8]}（临时 README，随后被正式历史覆盖）")
 
     blob_cache = {}   # 本地 blob sha -> 远端 blob sha（同内容不重复上传）
     sha_map = {}      # 本地 commit sha -> 远端 commit sha
@@ -175,10 +205,13 @@ def main() -> int:
             print(f"  tree 失败 {c[:8]} -> HTTP {st} {tree}")
             return 1
 
+        parents = [sha_map[p] for p in info["parents"]]
+        if not parents and init_sha:
+            parents = [init_sha]  # 本地首个 commit 无父，挂到初始提交下
         payload = {
             "message": info["message"],
             "tree": tree["sha"],
-            "parents": [sha_map[p] for p in info["parents"]],
+            "parents": parents,
             "author": info["author"],
             "committer": info["committer"],
         }
