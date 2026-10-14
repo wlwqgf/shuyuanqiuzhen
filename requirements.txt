@@ -22,6 +22,9 @@ numpy==2.5.4                 # BSD-3-Clause 数值计算
 # ---- 配置 ----
 PyYAML==6.0.3                # MIT        规则库 YAML 读取
 
+# ---- Web 前端 ----
+streamlit==1.65.0            # Apache-2.0 网站界面（web/app.py）
+
 # ---- 说明 ----
 # 大模型调用使用 Python 标准库 urllib，不引入第三方 HTTP 客户端，
 # 以免增加评审方的复现负担。详见 docs/tech_stack.md 第四节。
