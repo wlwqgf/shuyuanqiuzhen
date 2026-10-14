@@ -327,7 +327,13 @@ def build_from_extract(
             has_text_layer=bool(clean),
             table_count=table_count,
         )
-        if auto_page_type:
+        declared_type = detail.get("页面类型")
+        if declared_type:
+            # 解析工具（tools/extract_real.py）已用真实信号判定页面类型，
+            # 以它为准；说明文字一并带入，供人工复核时阅读
+            page.page_type = PageType(declared_type)
+            page.note = detail.get("说明", "") or _page_note(page)
+        elif auto_page_type:
             page.page_type = _infer_page_type(page, detail)
             page.note = _page_note(page)
         index.pages.append(page)

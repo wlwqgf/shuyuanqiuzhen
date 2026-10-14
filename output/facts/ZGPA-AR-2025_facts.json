@@ -1,0 +1,3765 @@
+{
+  "doc_id": "ZGPA-AR-2025",
+  "hit_count": 342,
+  "hits": [
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 10,
+      "page_char_start": 105,
+      "raw": "营业收入10,505.06 亿元",
+      "value": 10505.06,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 10,
+      "page_char_start": 105,
+      "raw": "营业收入10,505.06 亿元，同比增长2.1%",
+      "value": 2.1,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 10,
+      "page_char_start": 105,
+      "raw": "营业收入10,505.06 亿元，同比增长2.1%； 归属于母公司股东权益首次突破万亿，达10,004.19 亿元",
+      "value": 10004.19,
+      "unit": "亿元",
+      "context": [
+        "母公司",
+        "上期"
+      ]
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 10,
+      "page_char_start": 105,
+      "raw": "营业收入10,505.06 亿元，同比增长2.1%； 归属于母公司股东权益首次突破万亿，达10,004.19 亿元，较年初增长7.7%",
+      "value": 7.7,
+      "unit": "%",
+      "context": [
+        "母公司",
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 107,
+      "raw": "收入10,505.06 亿元",
+      "value": 10505.06,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 107,
+      "raw": "收入10,505.06 亿元，同比增长2.1%",
+      "value": 2.1,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 107,
+      "raw": "收入10,505.06 亿元，同比增长2.1%； 归属于母公司股东权益首次突破万亿，达10,004.19 亿元",
+      "value": 10004.19,
+      "unit": "亿元",
+      "context": [
+        "母公司",
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 107,
+      "raw": "收入10,505.06 亿元，同比增长2.1%； 归属于母公司股东权益首次突破万亿，达10,004.19 亿元，较年初增长7.7%",
+      "value": 7.7,
+      "unit": "%",
+      "context": [
+        "母公司",
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 613,
+      "raw": "收入3,431.68亿元",
+      "value": 3431.68,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 613,
+      "raw": "收入3,431.68亿元，同比增长6.6%",
+      "value": 6.6,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 613,
+      "raw": "收入3,431.68亿元，同比增长6.6% ； 保险服务收入3,389.12亿元",
+      "value": 3389.12,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 613,
+      "raw": "收入3,431.68亿元，同比增长6.6% ； 保险服务收入3,389.12亿元，同比增长3.3%",
+      "value": 3.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 613,
+      "raw": "收入3,431.68亿元，同比增长6.6% ； 保险服务收入3,389.12亿元，同比增长3.3% ； 整体综合成本率96.8%",
+      "value": 96.8,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 641,
+      "raw": "收入3,389.12亿元",
+      "value": 3389.12,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 641,
+      "raw": "收入3,389.12亿元，同比增长3.3%",
+      "value": 3.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 641,
+      "raw": "收入3,389.12亿元，同比增长3.3% ； 整体综合成本率96.8%",
+      "value": 96.8,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 10,
+      "page_char_start": 641,
+      "raw": "收入3,389.12亿元，同比增长3.3% ； 整体综合成本率96.8%，同比优化1.5个百分点，持续保持良好的盈利能力； 车险综合成本率95.8%",
+      "value": 95.8,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 10,
+      "page_char_start": 79,
+      "raw": "净利润1,437.73 亿元",
+      "value": 1437.73,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 10,
+      "page_char_start": 79,
+      "raw": "净利润1,437.73 亿元，同比增长22.5%",
+      "value": 22.5,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 10,
+      "page_char_start": 79,
+      "raw": "净利润1,437.73 亿元，同比增长22.5%； 营业收入10,505.06 亿元",
+      "value": 10505.06,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 10,
+      "page_char_start": 79,
+      "raw": "净利润1,437.73 亿元，同比增长22.5%； 营业收入10,505.06 亿元，同比增长2.1%",
+      "value": 2.1,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 10,
+      "page_char_start": 79,
+      "raw": "净利润1,437.73 亿元，同比增长22.5%； 营业收入10,505.06 亿元，同比增长2.1%； 归属于母公司股东权益首次突破万亿，达10,004.19 亿元",
+      "value": 10004.19,
+      "unit": "亿元",
+      "context": [
+        "母公司",
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 10,
+      "page_char_start": 79,
+      "raw": "净利润1,437.73 亿元，同比增长22.5%； 营业收入10,505.06 亿元，同比增长2.1%； 归属于母公司股东权益首次突破万亿，达10,004.19 亿元，较年初增长7.7%",
+      "value": 7.7,
+      "unit": "%",
+      "context": [
+        "母公司",
+        "上期"
+      ]
+    },
+    {
+      "metric": "归属于母公司股东权益",
+      "keyword": "归属于母公司股东权益",
+      "page_no": 10,
+      "page_char_start": 132,
+      "raw": "归属于母公司股东权益首次突破万亿，达10,004.19 亿元",
+      "value": 10004.19,
+      "unit": "亿元",
+      "context": [
+        "母公司"
+      ]
+    },
+    {
+      "metric": "归属于母公司股东权益",
+      "keyword": "归属于母公司股东权益",
+      "page_no": 10,
+      "page_char_start": 132,
+      "raw": "归属于母公司股东权益首次突破万亿，达10,004.19 亿元，较年初增长7.7%",
+      "value": 7.7,
+      "unit": "%",
+      "context": [
+        "母公司"
+      ]
+    },
+    {
+      "metric": "归属于母公司股东权益",
+      "keyword": "归属于母公司股东权益",
+      "page_no": 10,
+      "page_char_start": 132,
+      "raw": "归属于母公司股东权益首次突破万亿，达10,004.19 亿元，较年初增长7.7%。 注：2025年末期股息尚待公司2025年年度股东会审议通过后实施。 1,344.15亿元",
+      "value": 1344.15,
+      "unit": "亿元",
+      "context": [
+        "母公司",
+        "本期",
+        "期末"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 419,
+      "raw": "新业务价值368.97亿元",
+      "value": 368.97,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 419,
+      "raw": "新业务价值368.97亿元，同比增长29.3%",
+      "value": 29.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 419,
+      "raw": "新业务价值368.97亿元，同比增长29.3%，新业务价值率（按标准保费） 28.5%",
+      "value": 28.5,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 419,
+      "raw": "新业务价值368.97亿元，同比增长29.3%，新业务价值率（按标准保费） 28.5%，同比上升5.8个百分点； 代理人渠道新业务价值同比增长10.4%",
+      "value": 10.4,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 419,
+      "raw": "新业务价值368.97亿元，同比增长29.3%，新业务价值率（按标准保费） 28.5%，同比上升5.8个百分点； 代理人渠道新业务价值同比增长10.4%，人均新业务价值同比增长17.2%",
+      "value": 17.2,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 443,
+      "raw": "新业务价值率（按标准保费） 28.5%",
+      "value": 28.5,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 443,
+      "raw": "新业务价值率（按标准保费） 28.5%，同比上升5.8个百分点； 代理人渠道新业务价值同比增长10.4%",
+      "value": 10.4,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 443,
+      "raw": "新业务价值率（按标准保费） 28.5%，同比上升5.8个百分点； 代理人渠道新业务价值同比增长10.4%，人均新业务价值同比增长17.2%",
+      "value": 17.2,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 443,
+      "raw": "新业务价值率（按标准保费） 28.5%，同比上升5.8个百分点； 代理人渠道新业务价值同比增长10.4%，人均新业务价值同比增长17.2% ； 银保渠道新业务价值同比增长138.0%",
+      "value": 138.0,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 481,
+      "raw": "新业务价值同比增长10.4%",
+      "value": 10.4,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 481,
+      "raw": "新业务价值同比增长10.4%，人均新业务价值同比增长17.2%",
+      "value": 17.2,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 481,
+      "raw": "新业务价值同比增长10.4%，人均新业务价值同比增长17.2% ； 银保渠道新业务价值同比增长138.0%",
+      "value": 138.0,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 498,
+      "raw": "新业务价值同比增长17.2%",
+      "value": 17.2,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 498,
+      "raw": "新业务价值同比增长17.2% ； 银保渠道新业务价值同比增长138.0%",
+      "value": 138.0,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 519,
+      "raw": "新业务价值同比增长138.0%",
+      "value": 138.0,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 559,
+      "raw": "新业务价值的贡献占比同比提升12.1个百 分点。 4.财产保险业务规模持续增长，经营质效稳步提升 原保险保费收入3,431.68亿元",
+      "value": 3431.68,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 559,
+      "raw": "新业务价值的贡献占比同比提升12.1个百 分点。 4.财产保险业务规模持续增长，经营质效稳步提升 原保险保费收入3,431.68亿元，同比增长6.6%",
+      "value": 6.6,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 10,
+      "page_char_start": 559,
+      "raw": "新业务价值的贡献占比同比提升12.1个百 分点。 4.财产保险业务规模持续增长，经营质效稳步提升 原保险保费收入3,431.68亿元，同比增长6.6% ； 保险服务收入3,389.12亿元",
+      "value": 3389.12,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 11,
+      "page_char_start": 560,
+      "raw": "收入764.74亿元",
+      "value": 764.74,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 11,
+      "page_char_start": 560,
+      "raw": "收入764.74亿元； 提供乡村产业帮扶资金571.48亿元",
+      "value": 571.48,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 11,
+      "page_char_start": 65,
+      "raw": "净利润426.33亿元",
+      "value": 426.33,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 11,
+      "page_char_start": 65,
+      "raw": "净利润426.33亿元；不良贷款率1.05%",
+      "value": 1.05,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 11,
+      "page_char_start": 65,
+      "raw": "净利润426.33亿元；不良贷款率1.05%，拨备覆盖率220.88%",
+      "value": 220.88,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 11,
+      "page_char_start": 65,
+      "raw": "净利润426.33亿元；不良贷款率1.05%，拨备覆盖率220.88% ；核心一级资本充足率 9.36%",
+      "value": 9.36,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 11,
+      "page_char_start": 180,
+      "raw": "净利润 7.综合金融模式构筑核心竞争壁垒，客户经营效率持续提升 个人客户数2.51亿",
+      "value": 2.51,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 11,
+      "page_char_start": 180,
+      "raw": "净利润 7.综合金融模式构筑核心竞争壁垒，客户经营效率持续提升 个人客户数2.51亿，较年初增长3.5%",
+      "value": 3.5,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 11,
+      "page_char_start": 180,
+      "raw": "净利润 7.综合金融模式构筑核心竞争壁垒，客户经营效率持续提升 个人客户数2.51亿，较年初增长3.5% ； 线上月均活跃客户数约9,000万",
+      "value": 9000.0,
+      "unit": "万元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 12,
+      "page_char_start": 1281,
+      "raw": "净利润1,437.73亿元",
+      "value": 1437.73,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 12,
+      "page_char_start": 1281,
+      "raw": "净利润1,437.73亿元，同比 增长22.5%",
+      "value": 22.5,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 12,
+      "page_char_start": 1281,
+      "raw": "净利润1,437.73亿元，同比 增长22.5%。归母净资产首次突破万亿，达10,004.19亿元",
+      "value": 10004.19,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 12,
+      "page_char_start": 1281,
+      "raw": "净利润1,437.73亿元，同比 增长22.5%。归母净资产首次突破万亿，达10,004.19亿元。用 心回报股东，公司拟派发2025年末期股息每股现金人民币1.75 元",
+      "value": 1.75,
+      "unit": "元",
+      "context": [
+        "本期",
+        "上期",
+        "期末"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 12,
+      "page_char_start": 1410,
+      "raw": "新业务价值同比增长29.3%",
+      "value": 29.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 12,
+      "page_char_start": 1410,
+      "raw": "新业务价值同比增长29.3%。 保险资金投资业绩优良。综合投资收益率6.3%",
+      "value": 6.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 12,
+      "page_char_start": 1410,
+      "raw": "新业务价值同比增长29.3%。 保险资金投资业绩优良。综合投资收益率6.3%，同比上升0.5 个百分点。 综合金融客户经营深化，个人客户数2.51亿",
+      "value": 2.51,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 12,
+      "page_char_start": 1410,
+      "raw": "新业务价值同比增长29.3%。 保险资金投资业绩优良。综合投资收益率6.3%，同比上升0.5 个百分点。 综合金融客户经营深化，个人客户数2.51亿，较年初增长 3.5%",
+      "value": 3.5,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 219,
+      "raw": "收入（1）1,590亿",
+      "value": 1590.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 219,
+      "raw": "收入（1）1,590亿 元，其中医疗险保费收入近734亿元",
+      "value": 734.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 219,
+      "raw": "收入（1）1,590亿 元，其中医疗险保费收入近734亿元（2），同比增长2.7%",
+      "value": 2.7,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 219,
+      "raw": "收入（1）1,590亿 元，其中医疗险保费收入近734亿元（2），同比增长2.7%。 健康险保费收入 1,590亿元",
+      "value": 1590.0,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 219,
+      "raw": "收入（1）1,590亿 元，其中医疗险保费收入近734亿元（2），同比增长2.7%。 健康险保费收入 1,590亿元 同比增长2.7%",
+      "value": 2.7,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 219,
+      "raw": "收入（1）1,590亿 元，其中医疗险保费收入近734亿元（2），同比增长2.7%。 健康险保费收入 1,590亿元 同比增长2.7% 医疗险保费收入 近734亿元",
+      "value": 734.0,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 240,
+      "raw": "收入近734亿元",
+      "value": 734.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 240,
+      "raw": "收入近734亿元（2），同比增长2.7%",
+      "value": 2.7,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 240,
+      "raw": "收入近734亿元（2），同比增长2.7%。 健康险保费收入 1,590亿元",
+      "value": 1590.0,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 240,
+      "raw": "收入近734亿元（2），同比增长2.7%。 健康险保费收入 1,590亿元 同比增长2.7%",
+      "value": 2.7,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 240,
+      "raw": "收入近734亿元（2），同比增长2.7%。 健康险保费收入 1,590亿元 同比增长2.7% 医疗险保费收入 近734亿元",
+      "value": 734.0,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 267,
+      "raw": "收入 1,590亿元",
+      "value": 1590.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 267,
+      "raw": "收入 1,590亿元 同比增长2.7%",
+      "value": 2.7,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 267,
+      "raw": "收入 1,590亿元 同比增长2.7% 医疗险保费收入 近734亿元",
+      "value": 734.0,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 292,
+      "raw": "收入 近734亿元",
+      "value": 734.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 314,
+      "raw": "收入为平安寿险、平安养老险、平安健康险、平安产险等公司实现的原保险保费收入加总。 (2) 医疗险保费收入中，个人商业医疗保险保费收入581亿",
+      "value": 581.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 314,
+      "raw": "收入为平安寿险、平安养老险、平安健康险、平安产险等公司实现的原保险保费收入加总。 (2) 医疗险保费收入中，个人商业医疗保险保费收入581亿，企业补充医疗险收入153亿",
+      "value": 153.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 349,
+      "raw": "收入加总。 (2) 医疗险保费收入中，个人商业医疗保险保费收入581亿",
+      "value": 581.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 349,
+      "raw": "收入加总。 (2) 医疗险保费收入中，个人商业医疗保险保费收入581亿，企业补充医疗险收入153亿",
+      "value": 153.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 366,
+      "raw": "收入中，个人商业医疗保险保费收入581亿",
+      "value": 581.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 366,
+      "raw": "收入中，个人商业医疗保险保费收入581亿，企业补充医疗险收入153亿",
+      "value": 153.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 380,
+      "raw": "收入581亿",
+      "value": 581.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 380,
+      "raw": "收入581亿，企业补充医疗险收入153亿",
+      "value": 153.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 30,
+      "page_char_start": 394,
+      "raw": "收入153亿",
+      "value": 153.0,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 33,
+      "page_char_start": 191,
+      "raw": "营业收入 54.68亿元",
+      "value": 54.68,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 33,
+      "page_char_start": 193,
+      "raw": "收入 54.68亿元",
+      "value": 54.68,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 40,
+      "page_char_start": 94,
+      "raw": "净利润 1,437.73亿元",
+      "value": 1437.73,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 40,
+      "page_char_start": 94,
+      "raw": "净利润 1,437.73亿元，同比增长22.5%",
+      "value": 22.5,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 56,
+      "raw": "新业务价值同比增长 17.2%",
+      "value": 17.2,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 56,
+      "raw": "新业务价值同比增长 17.2% 寿险及健康险业务持续增长。2025年，寿险及健康险业务新业务价值达成368.97 亿元",
+      "value": 368.97,
+      "unit": "亿元",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 56,
+      "raw": "新业务价值同比增长 17.2% 寿险及健康险业务持续增长。2025年，寿险及健康险业务新业务价值达成368.97 亿元，同比增长29.3%",
+      "value": 29.3,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 101,
+      "raw": "新业务价值达成368.97 亿元",
+      "value": 368.97,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 101,
+      "raw": "新业务价值达成368.97 亿元，同比增长29.3%",
+      "value": 29.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 101,
+      "raw": "新业务价值达成368.97 亿元，同比增长29.3%。 寿险多渠道高质量发展。2025年，代理人渠道新业务价值同比增长10.4%",
+      "value": 10.4,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 101,
+      "raw": "新业务价值达成368.97 亿元，同比增长29.3%。 寿险多渠道高质量发展。2025年，代理人渠道新业务价值同比增长10.4%，人均 新业务价值同比增长17.2%",
+      "value": 17.2,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 153,
+      "raw": "新业务价值同比增长10.4%",
+      "value": 10.4,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 153,
+      "raw": "新业务价值同比增长10.4%，人均 新业务价值同比增长17.2%",
+      "value": 17.2,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 153,
+      "raw": "新业务价值同比增长10.4%，人均 新业务价值同比增长17.2% ；银保渠道新业务价值同比增长138.0%",
+      "value": 138.0,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 171,
+      "raw": "新业务价值同比增长17.2%",
+      "value": 17.2,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 171,
+      "raw": "新业务价值同比增长17.2% ；银保渠道新业务价值同比增长138.0%",
+      "value": 138.0,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 191,
+      "raw": "新业务价值同比增长138.0%",
+      "value": 138.0,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 230,
+      "raw": "新业务价值的贡献占比同比提升12.1个百分 点。 “保险+服务” 布局深化。2025年，平安寿险使用医疗养老服务客户数1,829.8万",
+      "value": 1829.8,
+      "unit": "万元",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 230,
+      "raw": "新业务价值的贡献占比同比提升12.1个百分 点。 “保险+服务” 布局深化。2025年，平安寿险使用医疗养老服务客户数1,829.8万。 截至2025年末，累计超24万",
+      "value": 24.0,
+      "unit": "万元",
+      "context": [
+        "本期",
+        "上期",
+        "期末"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 507,
+      "raw": "新业务价值 97.4%",
+      "value": 97.4,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 507,
+      "raw": "新业务价值 97.4% 13个月保单继续率 10.4%",
+      "value": 10.4,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 507,
+      "raw": "新业务价值 97.4% 13个月保单继续率 10.4% 代理人渠道新业务 价值同比增长 1,829.8万",
+      "value": 1829.8,
+      "unit": "万元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 785,
+      "raw": "新业务价值同 比增长10.4%",
+      "value": 10.4,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 785,
+      "raw": "新业务价值同 比增长10.4%，代理人人均新业务价值同比增长17.2%",
+      "value": 17.2,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 45,
+      "page_char_start": 806,
+      "raw": "新业务价值同比增长17.2%",
+      "value": 17.2,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 46,
+      "page_char_start": 46,
+      "raw": "新业务价值同比增长 138.0%",
+      "value": 138.0,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 46,
+      "page_char_start": 46,
+      "raw": "新业务价值同比增长 138.0% 已在198个城市铺设网点数 333个 已组建“三高” 精英队伍人数 超4万",
+      "value": 4.0,
+      "unit": "万元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 46,
+      "page_char_start": 406,
+      "raw": "新业务价值94.08亿元",
+      "value": 94.08,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 46,
+      "page_char_start": 406,
+      "raw": "新业务价值94.08亿元，同比增长138.0%",
+      "value": 138.0,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 51,
+      "page_char_start": 683,
+      "raw": "核心偿付能力充足率=核心资本╱最低资本；综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 51,
+      "page_char_start": 683,
+      "raw": "核心偿付能力充足率=核心资本╱最低资本；综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 51,
+      "page_char_start": 733,
+      "raw": "核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 51,
+      "page_char_start": 733,
+      "raw": "核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 51,
+      "page_char_start": 703,
+      "raw": "综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 51,
+      "page_char_start": 703,
+      "raw": "综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 51,
+      "page_char_start": 743,
+      "raw": "综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 51,
+      "page_char_start": 743,
+      "raw": "综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 97,
+      "raw": "收入3,431.68亿元",
+      "value": 3431.68,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 97,
+      "raw": "收入3,431.68亿元，同比增 长6.6%",
+      "value": 6.6,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 97,
+      "raw": "收入3,431.68亿元，同比增 长6.6% ；保险服务收入3,389.12亿元",
+      "value": 3389.12,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 97,
+      "raw": "收入3,431.68亿元，同比增 长6.6% ；保险服务收入3,389.12亿元，同比增长3.3%",
+      "value": 3.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 97,
+      "raw": "收入3,431.68亿元，同比增 长6.6% ；保险服务收入3,389.12亿元，同比增长3.3%。整体综合成本率96.8%",
+      "value": 96.8,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 125,
+      "raw": "收入3,389.12亿元",
+      "value": 3389.12,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 125,
+      "raw": "收入3,389.12亿元，同比增长3.3%",
+      "value": 3.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 125,
+      "raw": "收入3,389.12亿元，同比增长3.3%。整体综合成本率96.8%",
+      "value": 96.8,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 125,
+      "raw": "收入3,389.12亿元，同比增长3.3%。整体综合成本率96.8%，同 比优化1.5个百分点，主要因车险费用优化及保证保险扭亏为盈。 车险综合成本率95.8%",
+      "value": 95.8,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 711,
+      "raw": "收入达764.74亿元",
+      "value": 764.74,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 711,
+      "raw": "收入达764.74亿元，同比增长 30.5%",
+      "value": 30.5,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 711,
+      "raw": "收入达764.74亿元，同比增长 30.5% ；承保科技保险保单326万",
+      "value": 326.0,
+      "unit": "万元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 711,
+      "raw": "收入达764.74亿元，同比增长 30.5% ；承保科技保险保单326万件，提供9.29万",
+      "value": 9.29,
+      "unit": "万元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 53,
+      "page_char_start": 711,
+      "raw": "收入达764.74亿元，同比增长 30.5% ；承保科技保险保单326万件，提供9.29万亿元风险保障；协助推进136个城市型定制医疗保险项目，覆盖市民超3,683 万",
+      "value": 3683.0,
+      "unit": "万元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "月活跃帐户数",
+      "keyword": "月活跃用户",
+      "page_no": 53,
+      "page_char_start": 1063,
+      "raw": "月活跃用户数峰值超5,000万",
+      "value": 5000.0,
+      "unit": "万元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 56,
+      "raw": "收入2,303.62亿元",
+      "value": 2303.62,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 56,
+      "raw": "收入2,303.62亿元，同比增长3.2%",
+      "value": 3.2,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 56,
+      "raw": "收入2,303.62亿元，同比增长3.2%；综合成本率95.8%",
+      "value": 95.8,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 396,
+      "raw": "收入524.80亿元",
+      "value": 524.8,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 396,
+      "raw": "收入524.80亿元， 同比增长39.0%",
+      "value": 39.0,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 396,
+      "raw": "收入524.80亿元， 同比增长39.0%，市场份额27.7%",
+      "value": 27.7,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 396,
+      "raw": "收入524.80亿元， 同比增长39.0%，市场份额27.7%，为新能源车主提供了52.34万",
+      "value": 52.34,
+      "unit": "万元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 492,
+      "raw": "收入382.39亿元",
+      "value": 382.39,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 492,
+      "raw": "收入382.39亿元，同比增长25.2%",
+      "value": 25.2,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 492,
+      "raw": "收入382.39亿元，同比增长25.2% ；综合成本率99.4%",
+      "value": 99.4,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 761,
+      "raw": "收入242.62亿元",
+      "value": 242.62,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 761,
+      "raw": "收入242.62亿元，同比增长0.1%",
+      "value": 0.1,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 761,
+      "raw": "收入242.62亿元，同比增长0.1% ；综合成本率106.8%",
+      "value": 106.8,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 1004,
+      "raw": "收入124.70亿元",
+      "value": 124.7,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 1004,
+      "raw": "收入124.70亿元，同比增长16.3%",
+      "value": 16.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 1004,
+      "raw": "收入124.70亿元，同比增长16.3% ；综合成本率98.7%",
+      "value": 98.7,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 1197,
+      "raw": "收入106.58亿元",
+      "value": 106.58,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 54,
+      "page_char_start": 1197,
+      "raw": "收入106.58亿元；综合成本率98.0%",
+      "value": 98.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 55,
+      "page_char_start": 57,
+      "raw": "收入 保险服务 收入 保险服务 费用 承保利润 综合成本率 保险合同 负债净额 车险 350,337,225 230,362 228,495 215,912 9,496 95.8%",
+      "value": 95.8,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 55,
+      "page_char_start": 65,
+      "raw": "收入 保险服务 费用 承保利润 综合成本率 保险合同 负债净额 车险 350,337,225 230,362 228,495 215,912 9,496 95.8%",
+      "value": 95.8,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 55,
+      "page_char_start": 713,
+      "raw": "净利润145.97亿元",
+      "value": 145.97,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 55,
+      "page_char_start": 713,
+      "raw": "净利润145.97亿元，同比下降2.8%",
+      "value": 2.8,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 56,
+      "page_char_start": 788,
+      "raw": "核心偿付能力充足率=核心资本╱最低资本；综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 56,
+      "page_char_start": 788,
+      "raw": "核心偿付能力充足率=核心资本╱最低资本；综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 56,
+      "page_char_start": 838,
+      "raw": "核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 56,
+      "page_char_start": 838,
+      "raw": "核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 56,
+      "page_char_start": 808,
+      "raw": "综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 56,
+      "page_char_start": 808,
+      "raw": "综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 56,
+      "page_char_start": 848,
+      "raw": "综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 56,
+      "page_char_start": 848,
+      "raw": "综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 62,
+      "page_char_start": 395,
+      "raw": "收入，并获取资产 增值；除此之外，债权投资占比6.7%",
+      "value": 6.7,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 62,
+      "page_char_start": 395,
+      "raw": "收入，并获取资产 增值；除此之外，债权投资占比6.7%，其他股权投资占比6.5%",
+      "value": 6.5,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 63,
+      "page_char_start": 489,
+      "raw": "净利润 1.05%",
+      "value": 1.05,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 63,
+      "page_char_start": 489,
+      "raw": "净利润 1.05% 不良贷款率 42,384.09亿元",
+      "value": 42384.09,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 63,
+      "page_char_start": 489,
+      "raw": "净利润 1.05% 不良贷款率 42,384.09亿元 管理零售客户资产规模 平安银行整体业务经营保持稳健。2025年，实现净利润426.33亿元",
+      "value": 426.33,
+      "unit": "亿元",
+      "context": [
+        "本期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 63,
+      "page_char_start": 551,
+      "raw": "净利润426.33亿元",
+      "value": 426.33,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 63,
+      "page_char_start": 551,
+      "raw": "净利润426.33亿元；同时，持 续支持实体经济，截至2025年12月31日，企业贷款余额较年初增长3.5%",
+      "value": 3.5,
+      "unit": "%",
+      "context": [
+        "本期",
+        "期末"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 64,
+      "page_char_start": 52,
+      "raw": "收入同比增长53.3%",
+      "value": 53.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 64,
+      "page_char_start": 52,
+      "raw": "收入同比增长53.3% 1.82%",
+      "value": 1.82,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 64,
+      "page_char_start": 310,
+      "raw": "收入12.92亿元",
+      "value": 12.92,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 64,
+      "page_char_start": 310,
+      "raw": "收入12.92亿元，同比增长53.3%",
+      "value": 53.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 67,
+      "page_char_start": 86,
+      "raw": "营业收入1,314.42亿元",
+      "value": 1314.42,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 67,
+      "page_char_start": 86,
+      "raw": "营业收入1,314.42亿元，同比下降10.4%",
+      "value": 10.4,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 67,
+      "page_char_start": 88,
+      "raw": "收入1,314.42亿元",
+      "value": 1314.42,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 67,
+      "page_char_start": 88,
+      "raw": "收入1,314.42亿元，同比下降10.4%",
+      "value": 10.4,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 67,
+      "page_char_start": 169,
+      "raw": "收入下降。 平安银行通过数字化转型驱动降本增效，业务及管理费381.96亿元",
+      "value": 381.96,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 67,
+      "page_char_start": 169,
+      "raw": "收入下降。 平安银行通过数字化转型驱动降本增效，业务及管理费381.96亿元，同比下降5.9%",
+      "value": 5.9,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 67,
+      "page_char_start": 58,
+      "raw": "净利润426.33亿元",
+      "value": 426.33,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 67,
+      "page_char_start": 58,
+      "raw": "净利润426.33亿元，同比下降4.2%",
+      "value": 4.2,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 67,
+      "page_char_start": 58,
+      "raw": "净利润426.33亿元，同比下降4.2%。 平安银行实现营业收入1,314.42亿元",
+      "value": 1314.42,
+      "unit": "亿元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 67,
+      "page_char_start": 58,
+      "raw": "净利润426.33亿元，同比下降4.2%。 平安银行实现营业收入1,314.42亿元，同比下降10.4%",
+      "value": 10.4,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "月活跃帐户数",
+      "keyword": "月活跃用户",
+      "page_no": 69,
+      "page_char_start": 766,
+      "raw": "月活跃用户数稳居券 商前三。截至2025年12月31日，平安证券融资融券业务规模928亿元",
+      "value": 928.0,
+      "unit": "亿元",
+      "context": [
+        "本期",
+        "期末"
+      ]
+    },
+    {
+      "metric": "月活跃帐户数",
+      "keyword": "月活跃用户",
+      "page_no": 69,
+      "page_char_start": 766,
+      "raw": "月活跃用户数稳居券 商前三。截至2025年12月31日，平安证券融资融券业务规模928亿元，市场份额 3.65%",
+      "value": 3.65,
+      "unit": "%",
+      "context": [
+        "本期",
+        "期末"
+      ]
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 72,
+      "page_char_start": 234,
+      "raw": "营业收入54.68亿元",
+      "value": 54.68,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 72,
+      "page_char_start": 234,
+      "raw": "营业收入54.68亿元，净利润3.80亿元",
+      "value": 3.8,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 72,
+      "page_char_start": 234,
+      "raw": "营业收入54.68亿元，净利润3.80亿元。调整后净利润(1)4.14亿元",
+      "value": 4.14,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 72,
+      "page_char_start": 236,
+      "raw": "收入54.68亿元",
+      "value": 54.68,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 72,
+      "page_char_start": 236,
+      "raw": "收入54.68亿元，净利润3.80亿元",
+      "value": 3.8,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 72,
+      "page_char_start": 236,
+      "raw": "收入54.68亿元，净利润3.80亿元。调整后净利润(1)4.14亿元",
+      "value": 4.14,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 72,
+      "page_char_start": 246,
+      "raw": "净利润3.80亿元",
+      "value": 3.8,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 72,
+      "page_char_start": 246,
+      "raw": "净利润3.80亿元。调整后净利润(1)4.14亿元",
+      "value": 4.14,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 72,
+      "page_char_start": 259,
+      "raw": "净利润(1)4.14亿元",
+      "value": 4.14,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 74,
+      "page_char_start": 121,
+      "raw": "新业务价值达成368.97亿元",
+      "value": 368.97,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 74,
+      "page_char_start": 121,
+      "raw": "新业务价值达成368.97亿元，同比增长29.3%",
+      "value": 29.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 77,
+      "page_char_start": 211,
+      "raw": "新业务价值的贴现率按照产品类型设定，传统险为8.5%",
+      "value": 8.5,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 77,
+      "page_char_start": 211,
+      "raw": "新业务价值的贴现率按照产品类型设定，传统险为8.5%，分红与万能等非传统险为 7.5%",
+      "value": 7.5,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 77,
+      "page_char_start": 211,
+      "raw": "新业务价值的贴现率按照产品类型设定，传统险为8.5%，分红与万能等非传统险为 7.5%。 2、 投资回报 假设非投资连结型寿险资金的未来年度每年投资回报率为4.0%",
+      "value": 4.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "新业务价值",
+      "keyword": "新业务价值",
+      "page_no": 81,
+      "page_char_start": 85,
+      "raw": "新业务价值的影响。特别是已 考虑下列假设的变动： • 投资收益率增加或减少50个基点 • 风险贴现率增加或减少50个基点 • 死亡、疾病和意外等发生率上升10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "加权平均净资产收益率",
+      "keyword": "roe",
+      "page_no": 82,
+      "page_char_start": 1040,
+      "raw": "ROE12.7%",
+      "value": 12.7,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "加权平均净资产收益率",
+      "keyword": "roe",
+      "page_no": 82,
+      "page_char_start": 1040,
+      "raw": "ROE12.7% ；寿险及健康险业务归属于母 公司股东的营运利润997.52亿元",
+      "value": 997.52,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "加权平均净资产收益率",
+      "keyword": "roe",
+      "page_no": 82,
+      "page_char_start": 1040,
+      "raw": "ROE12.7% ；寿险及健康险业务归属于母 公司股东的营运利润997.52亿元，同比增长2.9%",
+      "value": 2.9,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "加权平均净资产收益率",
+      "keyword": "roe",
+      "page_no": 82,
+      "page_char_start": 1040,
+      "raw": "ROE12.7% ；寿险及健康险业务归属于母 公司股东的营运利润997.52亿元，同比增长2.9%，营运ROE21.3%",
+      "value": 21.3,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "加权平均净资产收益率",
+      "keyword": "roe",
+      "page_no": 82,
+      "page_char_start": 1092,
+      "raw": "ROE21.3%",
+      "value": 21.3,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 86,
+      "page_char_start": 65,
+      "raw": "综合偿付能力充足率为193.3%",
+      "value": 193.3,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 86,
+      "page_char_start": 65,
+      "raw": "综合偿付能力充足率为193.3%，核 心偿付能力充足率为160.7%",
+      "value": 160.7,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 86,
+      "page_char_start": 65,
+      "raw": "综合偿付能力充足率为193.3%，核 心偿付能力充足率为160.7%，远高于监管要求。 公司拟派发2025年末期股息每股现金人民币1.75元",
+      "value": 1.75,
+      "unit": "元",
+      "context": [
+        "本期",
+        "期末"
+      ]
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 86,
+      "page_char_start": 65,
+      "raw": "综合偿付能力充足率为193.3%，核 心偿付能力充足率为160.7%，远高于监管要求。 公司拟派发2025年末期股息每股现金人民币1.75元，全年股息为每股现金人民币2.70 元",
+      "value": 2.7,
+      "unit": "元",
+      "context": [
+        "本期",
+        "期末"
+      ]
+    },
+    {
+      "metric": "归属于母公司股东的净利润",
+      "keyword": "归母净利润",
+      "page_no": 88,
+      "page_char_start": 747,
+      "raw": "归母净利润计算的 现金分红比例 （含回购） 2025年 2.70 5.9%",
+      "value": 5.9,
+      "unit": "%",
+      "context": [
+        "本期"
+      ]
+    },
+    {
+      "metric": "归属于母公司股东的净利润",
+      "keyword": "归母净利润",
+      "page_no": 88,
+      "page_char_start": 747,
+      "raw": "归母净利润计算的 现金分红比例 （含回购） 2025年 2.70 5.9% 48,891 36.4%",
+      "value": 36.4,
+      "unit": "%",
+      "context": [
+        "本期"
+      ]
+    },
+    {
+      "metric": "归属于母公司股东的净利润",
+      "keyword": "归母净利润",
+      "page_no": 88,
+      "page_char_start": 747,
+      "raw": "归母净利润计算的 现金分红比例 （含回购） 2025年 2.70 5.9% 48,891 36.4% – 36.3%",
+      "value": 36.3,
+      "unit": "%",
+      "context": [
+        "本期"
+      ]
+    },
+    {
+      "metric": "归属于母公司股东的净利润",
+      "keyword": "归母净利润",
+      "page_no": 88,
+      "page_char_start": 747,
+      "raw": "归母净利润计算的 现金分红比例 （含回购） 2025年 2.70 5.9% 48,891 36.4% – 36.3% 2024年 2.55 5%",
+      "value": 5.0,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "归属于母公司股东的净利润",
+      "keyword": "归母净利润",
+      "page_no": 88,
+      "page_char_start": 747,
+      "raw": "归母净利润计算的 现金分红比例 （含回购） 2025年 2.70 5.9% 48,891 36.4% – 36.3% 2024年 2.55 5% 46,174 37.9%",
+      "value": 37.9,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "归属于母公司股东的净利润",
+      "keyword": "归母净利润",
+      "page_no": 88,
+      "page_char_start": 747,
+      "raw": "归母净利润计算的 现金分红比例 （含回购） 2025年 2.70 5.9% 48,891 36.4% – 36.3% 2024年 2.55 5% 46,174 37.9% – 36.5%",
+      "value": 36.5,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "归属于母公司股东的净利润",
+      "keyword": "归母净利润",
+      "page_no": 88,
+      "page_char_start": 1004,
+      "raw": "归母净利润计算的现金分红比例（含回购）为40.5%",
+      "value": 40.5,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 88,
+      "page_char_start": 749,
+      "raw": "净利润计算的 现金分红比例 （含回购） 2025年 2.70 5.9%",
+      "value": 5.9,
+      "unit": "%",
+      "context": [
+        "本期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 88,
+      "page_char_start": 749,
+      "raw": "净利润计算的 现金分红比例 （含回购） 2025年 2.70 5.9% 48,891 36.4%",
+      "value": 36.4,
+      "unit": "%",
+      "context": [
+        "本期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 88,
+      "page_char_start": 749,
+      "raw": "净利润计算的 现金分红比例 （含回购） 2025年 2.70 5.9% 48,891 36.4% – 36.3%",
+      "value": 36.3,
+      "unit": "%",
+      "context": [
+        "本期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 88,
+      "page_char_start": 749,
+      "raw": "净利润计算的 现金分红比例 （含回购） 2025年 2.70 5.9% 48,891 36.4% – 36.3% 2024年 2.55 5%",
+      "value": 5.0,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 88,
+      "page_char_start": 749,
+      "raw": "净利润计算的 现金分红比例 （含回购） 2025年 2.70 5.9% 48,891 36.4% – 36.3% 2024年 2.55 5% 46,174 37.9%",
+      "value": 37.9,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 88,
+      "page_char_start": 749,
+      "raw": "净利润计算的 现金分红比例 （含回购） 2025年 2.70 5.9% 48,891 36.4% – 36.3% 2024年 2.55 5% 46,174 37.9% – 36.5%",
+      "value": 36.5,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 88,
+      "page_char_start": 1006,
+      "raw": "净利润计算的现金分红比例（含回购）为40.5%",
+      "value": 40.5,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 89,
+      "page_char_start": 411,
+      "raw": "核心偿付能力充足率=核心资本╱最低资本；综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 89,
+      "page_char_start": 411,
+      "raw": "核心偿付能力充足率=核心资本╱最低资本；综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 89,
+      "page_char_start": 461,
+      "raw": "核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 89,
+      "page_char_start": 461,
+      "raw": "核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 89,
+      "page_char_start": 431,
+      "raw": "综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 89,
+      "page_char_start": 431,
+      "raw": "综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 89,
+      "page_char_start": 471,
+      "raw": "综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 89,
+      "page_char_start": 471,
+      "raw": "综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 106,
+      "page_char_start": 530,
+      "raw": "核心偿付能力充足率=核心资本╱最低资本；综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 106,
+      "page_char_start": 530,
+      "raw": "核心偿付能力充足率=核心资本╱最低资本；综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 106,
+      "page_char_start": 580,
+      "raw": "核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 106,
+      "page_char_start": 580,
+      "raw": "核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 106,
+      "page_char_start": 550,
+      "raw": "综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 106,
+      "page_char_start": 550,
+      "raw": "综合偿付能力充足率=实际资本╱最低资本。 (2) 上表中核心偿付能力充足率和综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 106,
+      "page_char_start": 590,
+      "raw": "综合偿付能力充足率的最低监管要求分别为50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 106,
+      "page_char_start": 590,
+      "raw": "综合偿付能力充足率的最低监管要求分别为50%、100%",
+      "value": 100.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 107,
+      "page_char_start": 210,
+      "raw": "收入764.74亿元",
+      "value": 764.74,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 107,
+      "page_char_start": 210,
+      "raw": "收入764.74亿元。 平安积极助力乡村振兴，开展产业、健康和教育等帮扶工作。2025年，平安通过 “三村工程” 提供乡村产业帮扶资金571.48亿元",
+      "value": 571.48,
+      "unit": "亿元",
+      "context": [
+        "本期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 108,
+      "page_char_start": 426,
+      "raw": "收入人群等重点群 体提供金融服务。2025年，平安产险总计已为293万",
+      "value": 293.0,
+      "unit": "万元",
+      "context": [
+        "本期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 108,
+      "page_char_start": 426,
+      "raw": "收入人群等重点群 体提供金融服务。2025年，平安产险总计已为293万小微企业 提供了373.04万",
+      "value": 373.04,
+      "unit": "万元",
+      "context": [
+        "本期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 108,
+      "page_char_start": 1083,
+      "raw": "收入达7,308.03亿元",
+      "value": 7308.03,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 108,
+      "page_char_start": 1083,
+      "raw": "收入达7,308.03亿元，同比增长16.1%",
+      "value": 16.1,
+      "unit": "%",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 159,
+      "page_char_start": 156,
+      "raw": "营业收入占当年营业收入的比例少于1%",
+      "value": 1.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 159,
+      "page_char_start": 163,
+      "raw": "营业收入的比例少于1%",
+      "value": 1.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 159,
+      "page_char_start": 158,
+      "raw": "收入占当年营业收入的比例少于1%",
+      "value": 1.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 159,
+      "page_char_start": 165,
+      "raw": "收入的比例少于1%",
+      "value": 1.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "归属于母公司股东的净利润",
+      "keyword": "归属于母公司股东的净利润",
+      "page_no": 160,
+      "page_char_start": 504,
+      "raw": "归属于母公司股东的净利润为人民币1,347.78亿元",
+      "value": 1347.78,
+      "unit": "亿元",
+      "context": [
+        "母公司"
+      ]
+    },
+    {
+      "metric": "归属于母公司股东的净利润",
+      "keyword": "归属于母公司股东的净利润",
+      "page_no": 160,
+      "page_char_start": 504,
+      "raw": "归属于母公司股东的净利润为人民币1,347.78亿元，母公 司净利润为人民币223.84亿元",
+      "value": 223.84,
+      "unit": "亿元",
+      "context": [
+        "母公司"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 160,
+      "page_char_start": 513,
+      "raw": "净利润为人民币1,347.78亿元",
+      "value": 1347.78,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 160,
+      "page_char_start": 513,
+      "raw": "净利润为人民币1,347.78亿元，母公 司净利润为人民币223.84亿元",
+      "value": 223.84,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 160,
+      "page_char_start": 535,
+      "raw": "净利润为人民币223.84亿元",
+      "value": 223.84,
+      "unit": "亿元",
+      "context": []
+    },
+    {
+      "metric": "总资产",
+      "keyword": "总资产",
+      "page_no": 184,
+      "page_char_start": 145,
+      "raw": "总资产的比 例分别为25%",
+      "value": 25.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "总资产",
+      "keyword": "总资产",
+      "page_no": 184,
+      "page_char_start": 145,
+      "raw": "总资产的比 例分别为25%、9%",
+      "value": 9.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "总资产",
+      "keyword": "总资产",
+      "page_no": 184,
+      "page_char_start": 145,
+      "raw": "总资产的比 例分别为25%、9%和23%",
+      "value": 23.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "总资产",
+      "keyword": "总资产",
+      "page_no": 184,
+      "page_char_start": 145,
+      "raw": "总资产的比 例分别为25%、9%和23%，相应的金融资产减值准备金额 分别为人民币89,988百万元",
+      "value": 89988.0,
+      "unit": "百万元",
+      "context": []
+    },
+    {
+      "metric": "总资产",
+      "keyword": "总资产",
+      "page_no": 184,
+      "page_char_start": 145,
+      "raw": "总资产的比 例分别为25%、9%和23%，相应的金融资产减值准备金额 分别为人民币89,988百万元、人民币63,041百万元",
+      "value": 63041.0,
+      "unit": "百万元",
+      "context": []
+    },
+    {
+      "metric": "总资产",
+      "keyword": "总资产",
+      "page_no": 184,
+      "page_char_start": 145,
+      "raw": "总资产的比 例分别为25%、9%和23%，相应的金融资产减值准备金额 分别为人民币89,988百万元、人民币63,041百万元和人民币 12,506百万元",
+      "value": 12506.0,
+      "unit": "百万元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 214,
+      "page_char_start": 155,
+      "raw": "收入的0.8%",
+      "value": 0.8,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 214,
+      "page_char_start": 155,
+      "raw": "收入的0.8%缴纳；人寿保险、长期健康保险、年金保险按 照业务收入的0.3%",
+      "value": 0.3,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 214,
+      "page_char_start": 155,
+      "raw": "收入的0.8%缴纳；人寿保险、长期健康保险、年金保险按 照业务收入的0.3%缴纳；其中，投资连结保险按照业务收入的0.05%",
+      "value": 0.05,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 214,
+      "page_char_start": 186,
+      "raw": "收入的0.3%",
+      "value": 0.3,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 214,
+      "page_char_start": 186,
+      "raw": "收入的0.3%缴纳；其中，投资连结保险按照业务收入的0.05%",
+      "value": 0.05,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 214,
+      "page_char_start": 209,
+      "raw": "收入的0.05%",
+      "value": 0.05,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 214,
+      "page_char_start": 209,
+      "raw": "收入的0.05%缴纳。 (2) 风险差别费率：以偿付能力风险综合评级结果为基础，根据评级结果，选择对应的费率。 当人身险行业保险保障基金余额达到其行业总资产的1%",
+      "value": 1.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "总资产",
+      "keyword": "总资产",
+      "page_no": 214,
+      "page_char_start": 284,
+      "raw": "总资产的1%",
+      "value": 1.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 236,
+      "page_char_start": 635,
+      "raw": "收入按6%",
+      "value": 6.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 236,
+      "page_char_start": 635,
+      "raw": "收入按6%-13%",
+      "value": 13.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 236,
+      "page_char_start": 635,
+      "raw": "收入按6%-13%的税率计算销项税，并按扣除当期允许抵扣的进项税额后的差额计缴增值税。 所得税 除部分享有税收优惠的子公司外，本集团2025年度适用的企业所得税税率为25%",
+      "value": 25.0,
+      "unit": "%",
+      "context": [
+        "合并",
+        "本期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 236,
+      "page_char_start": 555,
+      "raw": "净利润、综 合收益总额等直接相关项目金额的比重或所属报表单列项目金额的比重。 五、 税项 本集团根据对现时税法的理解，主要缴纳下列税项： 增值税 一般纳税人应税收入按6%",
+      "value": 6.0,
+      "unit": "%",
+      "context": [
+        "合并"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 236,
+      "page_char_start": 555,
+      "raw": "净利润、综 合收益总额等直接相关项目金额的比重或所属报表单列项目金额的比重。 五、 税项 本集团根据对现时税法的理解，主要缴纳下列税项： 增值税 一般纳税人应税收入按6%-13%",
+      "value": 13.0,
+      "unit": "%",
+      "context": [
+        "合并"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 246,
+      "page_char_start": 870,
+      "raw": "净利润为人民币17,922百万元",
+      "value": 17922.0,
+      "unit": "百万元",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 246,
+      "page_char_start": 870,
+      "raw": "净利润为人民币17,922百万元（2024年度：人民币18,712百万元",
+      "value": 18712.0,
+      "unit": "百万元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 246,
+      "page_char_start": 870,
+      "raw": "净利润为人民币17,922百万元（2024年度：人民币18,712百万元）；向少数股东支付股利金额为人民币6,886百万元",
+      "value": 6886.0,
+      "unit": "百万元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 246,
+      "page_char_start": 870,
+      "raw": "净利润为人民币17,922百万元（2024年度：人民币18,712百万元）；向少数股东支付股利金额为人民币6,886百万元 （2024年度：人民币10,207百万元",
+      "value": 10207.0,
+      "unit": "百万元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 248,
+      "page_char_start": 742,
+      "raw": "营业收入占当年营业收入的比例均小于1%",
+      "value": 1.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 248,
+      "page_char_start": 742,
+      "raw": "营业收入占当年营业收入的比例均小于1%。 注： 本公司对其直接及间接持股比例共75.01%",
+      "value": 75.01,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 248,
+      "page_char_start": 742,
+      "raw": "营业收入占当年营业收入的比例均小于1%。 注： 本公司对其直接及间接持股比例共75.01%，DISCOVERY LIMITED对其持股比例为24.99%",
+      "value": 24.99,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 248,
+      "page_char_start": 749,
+      "raw": "营业收入的比例均小于1%",
+      "value": 1.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 248,
+      "page_char_start": 749,
+      "raw": "营业收入的比例均小于1%。 注： 本公司对其直接及间接持股比例共75.01%",
+      "value": 75.01,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "营业收入",
+      "keyword": "营业收入",
+      "page_no": 248,
+      "page_char_start": 749,
+      "raw": "营业收入的比例均小于1%。 注： 本公司对其直接及间接持股比例共75.01%，DISCOVERY LIMITED对其持股比例为24.99%",
+      "value": 24.99,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 248,
+      "page_char_start": 744,
+      "raw": "收入占当年营业收入的比例均小于1%",
+      "value": 1.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 248,
+      "page_char_start": 744,
+      "raw": "收入占当年营业收入的比例均小于1%。 注： 本公司对其直接及间接持股比例共75.01%",
+      "value": 75.01,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 248,
+      "page_char_start": 744,
+      "raw": "收入占当年营业收入的比例均小于1%。 注： 本公司对其直接及间接持股比例共75.01%，DISCOVERY LIMITED对其持股比例为24.99%",
+      "value": 24.99,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 248,
+      "page_char_start": 751,
+      "raw": "收入的比例均小于1%",
+      "value": 1.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 248,
+      "page_char_start": 751,
+      "raw": "收入的比例均小于1%。 注： 本公司对其直接及间接持股比例共75.01%",
+      "value": 75.01,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 248,
+      "page_char_start": 751,
+      "raw": "收入的比例均小于1%。 注： 本公司对其直接及间接持股比例共75.01%，DISCOVERY LIMITED对其持股比例为24.99%",
+      "value": 24.99,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 272,
+      "page_char_start": 108,
+      "raw": "收入为人民币7,256百万元",
+      "value": 7256.0,
+      "unit": "百万元",
+      "context": []
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 272,
+      "page_char_start": 108,
+      "raw": "收入为人民币7,256百万元（2024年度：人民币7,478百万元",
+      "value": 7478.0,
+      "unit": "百万元",
+      "context": [
+        "上期"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 272,
+      "page_char_start": 108,
+      "raw": "收入为人民币7,256百万元（2024年度：人民币7,478百万元）。 于2025年12月31日，本集团净额为人民币9,589百万元",
+      "value": 9589.0,
+      "unit": "百万元",
+      "context": [
+        "合并",
+        "本期",
+        "上期",
+        "期末"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 272,
+      "page_char_start": 108,
+      "raw": "收入为人民币7,256百万元（2024年度：人民币7,478百万元）。 于2025年12月31日，本集团净额为人民币9,589百万元（2024年12月31日：人民币9,324百万元",
+      "value": 9324.0,
+      "unit": "百万元",
+      "context": [
+        "合并",
+        "本期",
+        "上期",
+        "期末"
+      ]
+    },
+    {
+      "metric": "收入",
+      "keyword": "收入",
+      "page_no": 305,
+      "page_char_start": 636,
+      "raw": "收入的10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 228,
+      "raw": "净利润的10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 228,
+      "raw": "净利润的10%提取法定盈余公积金。法定盈余公积累计额为本公司注册资本50%",
+      "value": 50.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 500,
+      "raw": "净利润的10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 500,
+      "raw": "净利润的10%提取总准备金、从事银行业务的公司按年末风险资产的1.5%",
+      "value": 1.5,
+      "unit": "%",
+      "context": [
+        "期末"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 500,
+      "raw": "净利润的10%提取总准备金、从事银行业务的公司按年末风险资产的1.5%提取一般准 备、从事证券业务的公司按净利润的10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": [
+        "期末"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 500,
+      "raw": "净利润的10%提取总准备金、从事银行业务的公司按年末风险资产的1.5%提取一般准 备、从事证券业务的公司按净利润的10%提取一般风险准备、从事信托业务的公司按净利润的5%",
+      "value": 5.0,
+      "unit": "%",
+      "context": [
+        "期末"
+      ]
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 553,
+      "raw": "净利润的10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 553,
+      "raw": "净利润的10%提取一般风险准备、从事信托业务的公司按净利润的5%",
+      "value": 5.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 553,
+      "raw": "净利润的10%提取一般风险准备、从事信托业务的公司按净利润的5%提取信托赔偿准备、从事期 货业务的公司按净利润的10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 553,
+      "raw": "净利润的10%提取一般风险准备、从事信托业务的公司按净利润的5%提取信托赔偿准备、从事期 货业务的公司按净利润的10%提取风险准备金以及从事基金业务的公司按基金管理费收入的10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 579,
+      "raw": "净利润的5%",
+      "value": 5.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 579,
+      "raw": "净利润的5%提取信托赔偿准备、从事期 货业务的公司按净利润的10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 579,
+      "raw": "净利润的5%提取信托赔偿准备、从事期 货业务的公司按净利润的10%提取风险准备金以及从事基金业务的公司按基金管理费收入的10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 605,
+      "raw": "净利润的10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 305,
+      "page_char_start": 605,
+      "raw": "净利润的10%提取风险准备金以及从事基金业务的公司按基金管理费收入的10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 306,
+      "page_char_start": 217,
+      "raw": "净利润弥补累计亏损后金额的10%",
+      "value": 10.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 734,
+      "raw": "核心偿付能力充足率 160.7%",
+      "value": 160.7,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 734,
+      "raw": "核心偿付能力充足率 160.7% 123.3%",
+      "value": 123.3,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 734,
+      "raw": "核心偿付能力充足率 160.7% 123.3% 173.5%",
+      "value": 173.5,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 734,
+      "raw": "核心偿付能力充足率 160.7% 123.3% 173.5% 165.2%",
+      "value": 165.2,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 734,
+      "raw": "核心偿付能力充足率 160.7% 123.3% 173.5% 165.2% 116.4%",
+      "value": 116.4,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 734,
+      "raw": "核心偿付能力充足率 160.7% 123.3% 173.5% 165.2% 116.4% 171.3%",
+      "value": 171.3,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 734,
+      "raw": "核心偿付能力充足率 160.7% 123.3% 173.5% 165.2% 116.4% 171.3% 综合偿付能力充足率 193.3%",
+      "value": 193.3,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 734,
+      "raw": "核心偿付能力充足率 160.7% 123.3% 173.5% 165.2% 116.4% 171.3% 综合偿付能力充足率 193.3% 175.7%",
+      "value": 175.7,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 734,
+      "raw": "核心偿付能力充足率 160.7% 123.3% 173.5% 165.2% 116.4% 171.3% 综合偿付能力充足率 193.3% 175.7% 217.1%",
+      "value": 217.1,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 734,
+      "raw": "核心偿付能力充足率 160.7% 123.3% 173.5% 165.2% 116.4% 171.3% 综合偿付能力充足率 193.3% 175.7% 217.1% 204.1%",
+      "value": 204.1,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "核心偿付能力充足率",
+      "keyword": "核心偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 734,
+      "raw": "核心偿付能力充足率 160.7% 123.3% 173.5% 165.2% 116.4% 171.3% 综合偿付能力充足率 193.3% 175.7% 217.1% 204.1% 189.2%",
+      "value": 189.2,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 786,
+      "raw": "综合偿付能力充足率 193.3%",
+      "value": 193.3,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 786,
+      "raw": "综合偿付能力充足率 193.3% 175.7%",
+      "value": 175.7,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 786,
+      "raw": "综合偿付能力充足率 193.3% 175.7% 217.1%",
+      "value": 217.1,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 786,
+      "raw": "综合偿付能力充足率 193.3% 175.7% 217.1% 204.1%",
+      "value": 204.1,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 786,
+      "raw": "综合偿付能力充足率 193.3% 175.7% 217.1% 204.1% 189.2%",
+      "value": 189.2,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "综合偿付能力充足率",
+      "keyword": "综合偿付能力充足率",
+      "page_no": 356,
+      "page_char_start": 786,
+      "raw": "综合偿付能力充足率 193.3% 175.7% 217.1% 204.1% 189.2% 205.3%",
+      "value": 205.3,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 365,
+      "page_char_start": 85,
+      "raw": "净利润 14.0%",
+      "value": 14.0,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 365,
+      "page_char_start": 85,
+      "raw": "净利润 14.0% 13.8%",
+      "value": 13.8,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 365,
+      "page_char_start": 85,
+      "raw": "净利润 14.0% 13.8% 扣除非经常性损益后归属于公司普通股股东的净利润 14.9%",
+      "value": 14.9,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 365,
+      "page_char_start": 85,
+      "raw": "净利润 14.0% 13.8% 扣除非经常性损益后归属于公司普通股股东的净利润 14.9% 12.8%",
+      "value": 12.8,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 365,
+      "page_char_start": 121,
+      "raw": "净利润 14.9%",
+      "value": 14.9,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "净利润",
+      "keyword": "净利润",
+      "page_no": 365,
+      "page_char_start": 121,
+      "raw": "净利润 14.9% 12.8%",
+      "value": 12.8,
+      "unit": "%",
+      "context": []
+    },
+    {
+      "metric": "加权平均净资产收益率",
+      "keyword": "加权平均净资产收益率",
+      "page_no": 365,
+      "page_char_start": 49,
+      "raw": "加权平均净资产收益率 2025年度 2024年度 归属于公司普通股股东的净利润 14.0%",
+      "value": 14.0,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "加权平均净资产收益率",
+      "keyword": "加权平均净资产收益率",
+      "page_no": 365,
+      "page_char_start": 49,
+      "raw": "加权平均净资产收益率 2025年度 2024年度 归属于公司普通股股东的净利润 14.0% 13.8%",
+      "value": 13.8,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "加权平均净资产收益率",
+      "keyword": "加权平均净资产收益率",
+      "page_no": 365,
+      "page_char_start": 49,
+      "raw": "加权平均净资产收益率 2025年度 2024年度 归属于公司普通股股东的净利润 14.0% 13.8% 扣除非经常性损益后归属于公司普通股股东的净利润 14.9%",
+      "value": 14.9,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    },
+    {
+      "metric": "加权平均净资产收益率",
+      "keyword": "加权平均净资产收益率",
+      "page_no": 365,
+      "page_char_start": 49,
+      "raw": "加权平均净资产收益率 2025年度 2024年度 归属于公司普通股股东的净利润 14.0% 13.8% 扣除非经常性损益后归属于公司普通股股东的净利润 14.9% 12.8%",
+      "value": 12.8,
+      "unit": "%",
+      "context": [
+        "本期",
+        "上期"
+      ]
+    }
+  ]
+}

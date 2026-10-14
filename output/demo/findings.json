@@ -1,0 +1,471 @@
+{
+  "声明": "本演示使用真实年报数字，研报草稿为构造样例，错误系故意预埋",
+  "汇总": {
+    "断言总数": 8,
+    "其中预埋错误": 6,
+    "对照组(正确)": 2,
+    "规则引擎_检出错误": 4,
+    "规则引擎_误报": 0,
+    "大模型带证据_检出错误": 5,
+    "大模型带证据_误报": 0,
+    "大模型无证据_检出错误": 0,
+    "大模型无证据_误报": 0,
+    "总耗时秒": 48.7
+  },
+  "明细": [
+    {
+      "id": "C01",
+      "quote": "财产保险业务保险服务收入 338.912 亿元，同比增长 3.3%。",
+      "gt": "单位错误",
+      "rule_verdict": "不一致",
+      "rule_type": "单位错误",
+      "llm_verdict": "不一致",
+      "llm_pure_verdict": "无法判定",
+      "pages": [
+        10
+      ],
+      "reason": "研报 338.912亿元 与原文 3389.12亿元 相差 10 倍，判定为单位错误（E2）"
+    },
+    {
+      "id": "C02",
+      "quote": "寿险及健康险业务新业务价值 368.97 亿元，同比增长 39.3%。",
+      "gt": "数值错误",
+      "rule_verdict": "不一致",
+      "rule_type": "数值错误",
+      "llm_verdict": "不一致",
+      "llm_pure_verdict": "无法判定",
+      "pages": [
+        10
+      ],
+      "reason": "研报 39.3% 与原文 29.3%（同单位）差异 34.1%，判定为数值错误（E1）"
+    },
+    {
+      "id": "C03",
+      "quote": "现金分红总额 488.91 亿元，占归母营运利润的 42.6%。",
+      "gt": "勾稽与逻辑矛盾",
+      "rule_verdict": "不一致",
+      "rule_type": "勾稽与逻辑矛盾",
+      "llm_verdict": "不一致",
+      "llm_pure_verdict": "无法判定",
+      "pages": [
+        10,
+        10,
+        12,
+        86
+      ],
+      "reason": "重算比例为 36.37%，研报写 42.6%，差异 17.1%，判定为勾稽矛盾（E7）"
+    },
+    {
+      "id": "C04",
+      "quote": "集团总资产达 15.27 万亿元，资产规模持续扩张。",
+      "gt": "引用与来源错误",
+      "rule_verdict": "不一致",
+      "rule_type": "引用与来源错误",
+      "llm_verdict": "不一致",
+      "llm_pure_verdict": "无法判定",
+      "pages": [
+        14,
+        44,
+        66,
+        86
+      ],
+      "reason": "在已解析的全部 370 页中检索不到数值 15.27 的任何书写形态，该表述缺乏来源支撑（E6）"
+    },
+    {
+      "id": "C05",
+      "quote": "归属于母公司股东的净利润 1,437.73 亿元，同比增长 22.5%。",
+      "gt": "统计口径错误",
+      "rule_verdict": "疑似",
+      "rule_type": "统计口径错误",
+      "llm_verdict": "不一致",
+      "llm_pure_verdict": "无法判定",
+      "pages": [
+        10,
+        12,
+        40
+      ],
+      "reason": "数值 1437.73 在原文中带有「扣非」口径限定，草稿表述未体现该限定，疑似统计口径错误（E3），需语义复核"
+    },
+    {
+      "id": "C06",
+      "quote": "全年股息每股现金人民币 2.70 元，同比增长 5.9%。",
+      "gt": "正确（对照）",
+      "rule_verdict": "一致",
+      "rule_type": "-",
+      "llm_verdict": "一致",
+      "llm_pure_verdict": "无法判定",
+      "pages": [
+        10
+      ],
+      "reason": "研报 2.7元 与原文 2.7元 差异 0.00%，在 1% 容差内"
+    },
+    {
+      "id": "C07",
+      "quote": "保险资金投资组合规模 6.49 万亿元，较年初增长 13.2%。",
+      "gt": "正确（对照）",
+      "rule_verdict": "一致",
+      "rule_type": "-",
+      "llm_verdict": "一致",
+      "llm_pure_verdict": "无法判定",
+      "pages": [
+        10
+      ],
+      "reason": "研报 6.49万亿元 与原文 6.49万亿元 差异 0.00%，在 1% 容差内"
+    },
+    {
+      "id": "C08",
+      "quote": "基本每股盈利为人民币 28.577 元。",
+      "gt": "统计口径错误",
+      "rule_verdict": "疑似",
+      "rule_type": "统计口径错误",
+      "llm_verdict": "一致",
+      "llm_pure_verdict": "无法判定",
+      "pages": [
+        5
+      ],
+      "reason": "数值 28.577 在原文中带有「非國際財務報告準則」口径限定，草稿表述未体现该限定，疑似统计口径错误（E3），需语义复核"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "F-C01",
+      "target_doc_id": "DEMO-DRAFT-2025",
+      "target_page": 1,
+      "error_type": "E2",
+      "status": "confirmed",
+      "evidence_level": "A",
+      "target_quote": "财产保险业务保险服务收入 338.912 亿元，同比增长 3.3%。",
+      "target_char_start": -1,
+      "target_char_end": -1,
+      "severity": "high",
+      "claim_value": "338.912",
+      "correct_value": "3389.12",
+      "unit": "亿元",
+      "delta": "",
+      "reason": "研报 338.912亿元 与原文 3389.12亿元 相差 10 倍，判定为单位错误（E2）；大模型复核：年报中保险服务收入为3,389.12亿元，研报断言为338.912亿元。；双通道一致",
+      "evidences": [
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 10,
+          "quote": "比增长6.6% ； 保险服务收入3,389.12亿元，同比增长3.3% ； 整体综合成本率96.8%，同比优化1.5个百分点，持续保持良好的盈利能力； 车险综合成本率95.8%，同比优化2.3",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "338.912 × 10 = 3389.12 ≈ 原文 3389.12",
+          "page_type": "text",
+          "evidence_level": "A",
+          "image_path": ""
+        }
+      ],
+      "rule_id": "R-VALUE-001",
+      "channel": "hybrid",
+      "model_info": {},
+      "suggestion_original": "财产保险业务保险服务收入 338.912 亿元，同比增长 3.3%。",
+      "suggestion_revised": "",
+      "suggestion_basis": "ZGPA-AR-2025 第 10 页：比增长6.6% ； 保险服务收入3,389.12亿元，同比增长3.3% ； 整体综合成本率96.8%，同比优化1.5个百",
+      "suggestion_impact": "",
+      "review_status": "not_reviewed",
+      "reviewer": "",
+      "review_note": "",
+      "run_id": "",
+      "created_at": "2026-10-14T16:11:05+08:00"
+    },
+    {
+      "finding_id": "F-C02",
+      "target_doc_id": "DEMO-DRAFT-2025",
+      "target_page": 1,
+      "error_type": "E1",
+      "status": "confirmed",
+      "evidence_level": "A",
+      "target_quote": "寿险及健康险业务新业务价值 368.97 亿元，同比增长 39.3%。",
+      "target_char_start": -1,
+      "target_char_end": -1,
+      "severity": "high",
+      "claim_value": "39.3",
+      "correct_value": "29.3",
+      "unit": "%",
+      "delta": "",
+      "reason": "研报 39.3% 与原文 29.3%（同单位）差异 34.1%，判定为数值错误（E1）；大模型复核：年报中同比增长为29.3%，研报中为39.3%。；双通道一致",
+      "evidences": [
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 10,
+          "quote": "现 寿险及健康险业务新业务价值368.97亿元，同比增长29.3%，新业务价值率（按标准保费） 28.5%，同比上升5.8个百分点； 代理人渠道新业务价值同比增长10.4%，人均新业务价值同",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "|39.3 - 29.3| / 29.3 = 34.13%",
+          "page_type": "text",
+          "evidence_level": "A",
+          "image_path": ""
+        }
+      ],
+      "rule_id": "R-VALUE-001",
+      "channel": "hybrid",
+      "model_info": {},
+      "suggestion_original": "寿险及健康险业务新业务价值 368.97 亿元，同比增长 39.3%。",
+      "suggestion_revised": "",
+      "suggestion_basis": "ZGPA-AR-2025 第 10 页：现 寿险及健康险业务新业务价值368.97亿元，同比增长29.3%，新业务价值率（按标准保费） 28.5%，同比上升5.",
+      "suggestion_impact": "",
+      "review_status": "not_reviewed",
+      "reviewer": "",
+      "review_note": "",
+      "run_id": "",
+      "created_at": "2026-10-14T16:11:09+08:00"
+    },
+    {
+      "finding_id": "F-C03",
+      "target_doc_id": "DEMO-DRAFT-2025",
+      "target_page": 1,
+      "error_type": "E7",
+      "status": "confirmed",
+      "evidence_level": "A",
+      "target_quote": "现金分红总额 488.91 亿元，占归母营运利润的 42.6%。",
+      "target_char_start": -1,
+      "target_char_end": -1,
+      "severity": "high",
+      "claim_value": "",
+      "correct_value": "36.37",
+      "unit": "",
+      "delta": "",
+      "reason": "重算比例为 36.37%，研报写 42.6%，差异 17.1%，判定为勾稽矛盾（E7）；大模型复核：断言中占比为42.6%，而摘录中占比为36.4%。；双通道一致",
+      "evidences": [
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 10,
+          "quote": "比增长5.9% ； 现金分红总额488.91亿元，基于归母营运利润计算的现金分红比例为36.4%。 2.现金分红总额连续14年保持上涨 5.",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "现金分红总额 488.91 / 归属于母公司股东的营运利润 1344.15 × 100% = 36.37%",
+          "page_type": "text",
+          "evidence_level": "A",
+          "image_path": ""
+        },
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 10,
+          "quote": "为36.4%。 2.现金分红总额连续14年保持上涨 5.9% 全年每股股息同比增长 3.寿险及健康险业务保持增长态势，渠道综合实力增强，高质",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "现金分红总额 488.91 / 归属于母公司股东的营运利润 1344.15 × 100% = 36.37%",
+          "page_type": "text",
+          "evidence_level": "A",
+          "image_path": ""
+        },
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 12,
+          "quote": "币1.75 元；全年现金分红总额488.91亿元，连续14年保持增长。寿 险及健康险业务保持增长态势，新业务价值同比增长29.3%。 保险资",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "现金分红总额 488.91 / 归属于母公司股东的营运利润 1344.15 × 100% = 36.37%",
+          "page_type": "text",
+          "evidence_level": "A",
+          "image_path": ""
+        },
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 86,
+          "quote": "同比增长5.9% ；现金分红总额488.91亿元，按归属于母公司股东的营运利润计算的 现金分红比例为36.4%。 概述 本集团流动性管理的目",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "现金分红总额 488.91 / 归属于母公司股东的营运利润 1344.15 × 100% = 36.37%",
+          "page_type": "text",
+          "evidence_level": "A",
+          "image_path": ""
+        }
+      ],
+      "rule_id": "R-RECOMPUTE-001",
+      "channel": "hybrid",
+      "model_info": {},
+      "suggestion_original": "现金分红总额 488.91 亿元，占归母营运利润的 42.6%。",
+      "suggestion_revised": "",
+      "suggestion_basis": "ZGPA-AR-2025 第 10 页：比增长5.9% ； 现金分红总额488.91亿元，基于归母营运利润计算的现金分红比例为36.4%。 2.现金分红总额连续",
+      "suggestion_impact": "",
+      "review_status": "not_reviewed",
+      "reviewer": "",
+      "review_note": "",
+      "run_id": "",
+      "created_at": "2026-10-14T16:11:14+08:00"
+    },
+    {
+      "finding_id": "F-C04",
+      "target_doc_id": "DEMO-DRAFT-2025",
+      "target_page": 1,
+      "error_type": "E6",
+      "status": "confirmed",
+      "evidence_level": "A",
+      "target_quote": "集团总资产达 15.27 万亿元，资产规模持续扩张。",
+      "target_char_start": -1,
+      "target_char_end": -1,
+      "severity": "high",
+      "claim_value": "",
+      "correct_value": "None",
+      "unit": "",
+      "delta": "",
+      "reason": "在已解析的全部 370 页中检索不到数值 15.27 的任何书写形态，该表述缺乏来源支撑（E6）；大模型复核：研报断言总资产15.27万亿元，而年报摘录显示总资产13,898,471亿元。；双通道一致",
+      "evidences": [
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 14,
+          "quote": "3年 12月31日 总资产 13,898,471 12,957,827 7.3 11,583,417 总负债 12,482,483 11,6",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "检索形态：15.27 / 15.27 等，命中 0 处",
+          "page_type": "text",
+          "evidence_level": "A",
+          "image_path": ""
+        },
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 44,
+          "quote": "%) 主要变动原因 总资产 13,898,471 12,957,827 7.3 业务增长 总负债 12,482,483 11,653,115",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "检索形态：15.27 / 15.27 等，命中 0 处",
+          "page_type": "text",
+          "evidence_level": "A",
+          "image_path": ""
+        },
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 66,
+          "quote": ".40个百分点 平均总资产收益率(%) 0.73 0.78 下降0.05个百分点 加权平均净资产收益率(%) 9.15 10.08 下降0.",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "检索形态：15.27 / 15.27 等，命中 0 处",
+          "page_type": "text",
+          "evidence_level": "A",
+          "image_path": ""
+        },
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 86,
+          "quote": "31日 变动(%) 总资产 13,898,471 12,957,827 7.3 总负债 12,482,483 11,653,115 7.1",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "检索形态：15.27 / 15.27 等，命中 0 处",
+          "page_type": "text",
+          "evidence_level": "A",
+          "image_path": ""
+        }
+      ],
+      "rule_id": "R-EXISTS-001",
+      "channel": "hybrid",
+      "model_info": {},
+      "suggestion_original": "集团总资产达 15.27 万亿元，资产规模持续扩张。",
+      "suggestion_revised": "",
+      "suggestion_basis": "ZGPA-AR-2025 第 14 页：3年 12月31日 总资产 13,898,471 12,957,827 7.3 11,583,417 总负债 12,48",
+      "suggestion_impact": "",
+      "review_status": "not_reviewed",
+      "reviewer": "",
+      "review_note": "",
+      "run_id": "",
+      "created_at": "2026-10-14T16:11:24+08:00"
+    },
+    {
+      "finding_id": "F-C05",
+      "target_doc_id": "DEMO-DRAFT-2025",
+      "target_page": 1,
+      "error_type": "E3",
+      "status": "suspect",
+      "evidence_level": "B",
+      "target_quote": "归属于母公司股东的净利润 1,437.73 亿元，同比增长 22.5%。",
+      "target_char_start": -1,
+      "target_char_end": -1,
+      "severity": "medium",
+      "claim_value": "1437.73",
+      "correct_value": "1437.73",
+      "unit": "亿元",
+      "delta": "",
+      "reason": "数值 1437.73 在原文中带有「扣非」口径限定，草稿表述未体现该限定，疑似统计口径错误（E3），需语义复核；大模型复核：研报断言与年报摘录中净利润数值不一致。；双通道不一致，已进人工复核队列",
+      "evidences": [
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 10,
+          "quote": "司股东的营运利润1,344.15 亿元，同比增长10.3%； 归属于母公司股东的扣非净利润1,437.73 亿元，同比增长22.5%； 营业收入10,505.06 亿元，同比增长2",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "",
+          "page_type": "text",
+          "evidence_level": "B",
+          "image_path": ""
+        },
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 12,
+          "quote": "公司股东的营运利润1,344.15亿元，同比增长 10.3%。归属于母公司股东的扣非净利润1,437.73亿元，同比 增长22.5%。归母净资产首次突破万亿，达10,004.19亿",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "",
+          "page_type": "text",
+          "evidence_level": "B",
+          "image_path": ""
+        },
+        {
+          "doc_id": "ZGPA-AR-2025",
+          "page_no": 40,
+          "quote": "司股东的营运利润1,344.15亿元，同比增长10.3% ；归属于母公司股东的扣非净利润 1,437.73亿元，同比增长22.5%。 合并经营业绩 本公司通过多渠道分销网络，借助旗",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "",
+          "page_type": "text",
+          "evidence_level": "B",
+          "image_path": ""
+        }
+      ],
+      "rule_id": "R-KEYWORD_CONTEXT-001",
+      "channel": "hybrid",
+      "model_info": {},
+      "suggestion_original": "归属于母公司股东的净利润 1,437.73 亿元，同比增长 22.5%。",
+      "suggestion_revised": "",
+      "suggestion_basis": "",
+      "suggestion_impact": "",
+      "review_status": "not_reviewed",
+      "reviewer": "",
+      "review_note": "",
+      "run_id": "",
+      "created_at": "2026-10-14T16:11:30+08:00"
+    },
+    {
+      "finding_id": "F-C08",
+      "target_doc_id": "DEMO-DRAFT-2025",
+      "target_page": 1,
+      "error_type": "E3",
+      "status": "suspect",
+      "evidence_level": "B",
+      "target_quote": "基本每股盈利为人民币 28.577 元。",
+      "target_char_start": -1,
+      "target_char_end": -1,
+      "severity": "medium",
+      "claim_value": "28.577",
+      "correct_value": "28.577",
+      "unit": "元",
+      "delta": "",
+      "reason": "数值 28.577 在原文中带有「非國際財務報告準則」口径限定，草稿表述未体现该限定，疑似统计口径错误（E3），需语义复核；大模型复核：研报断言与年报摘录基本每股盈利数值一致。；双通道一致（均未见错误）",
+      "evidences": [
+        {
+          "doc_id": "TX-AR-2025",
+          "page_no": 5,
+          "quote": "%。截至二零二五年十二月三十一日止年度的非國際財務報告準則基本及攤薄每股 盈利分別為人民幣28.577 元及人民幣27.877 元。 經營資料 於二零二五年 十二月三十一日 於二零",
+          "char_start": -1,
+          "char_end": -1,
+          "calculation": "",
+          "page_type": "text",
+          "evidence_level": "B",
+          "image_path": ""
+        }
+      ],
+      "rule_id": "R-KEYWORD_CONTEXT-001",
+      "channel": "hybrid",
+      "model_info": {},
+      "suggestion_original": "基本每股盈利为人民币 28.577 元。",
+      "suggestion_revised": "",
+      "suggestion_basis": "",
+      "suggestion_impact": "",
+      "review_status": "not_reviewed",
+      "reviewer": "",
+      "review_note": "",
+      "run_id": "",
+      "created_at": "2026-10-14T16:11:46+08:00"
+    }
+  ]
+}

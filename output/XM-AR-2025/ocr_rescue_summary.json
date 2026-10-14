@@ -1,0 +1,42 @@
+[
+  {
+    "page_no": 2,
+    "text_layer_chars": 427,
+    "ocr_segments": 14,
+    "ocr_avg_confidence": 0.86,
+    "ocr_low_conf_segments": 13,
+    "ocr_text_head": "本年度告（英文及中文版）已於本公司網站www.mi.com及交所網站\nwww.hkexnews.hk登载。凡遥撑覺在上述網站登载之公司通（包括但不\n限於年、财务告摘要（如用）、中期報告、中期告摘要（如用）、\n曾護通告、上市文件、通函及代表委任表格）以代替其任何或全部印刷本\n之股東，均可要求索取年度報告之印刷本。\n已遥撑或被視為已同意以電子方式收取公司通訓或在收取或廚本公司網\n站登载之年度報告時遇到",
+    "metric_candidates": [],
+    "image": "output/XM-AR-2025/images/page_0002.png"
+  },
+  {
+    "page_no": 3,
+    "text_layer_chars": 91,
+    "ocr_segments": 16,
+    "ocr_avg_confidence": 0.67,
+    "ocr_low_conf_segments": 16,
+    "ocr_text_head": "目錄\n公司资料\n五年财務概要\n主席報告\n17\n管理層讨及分析\n33\n董事會報告\n88\n企業管治報告\n110\n環境、社會及管治報告\n262\n獨立核数師告\n405\nSIDN",
+    "metric_candidates": [],
+    "image": "output/XM-AR-2025/images/page_0003.png"
+  },
+  {
+    "page_no": 5,
+    "text_layer_chars": 0,
+    "ocr_segments": 3,
+    "ocr_avg_confidence": 0.651,
+    "ocr_low_conf_segments": 3,
+    "ocr_text_head": "16\n10:09:24\noex",
+    "metric_candidates": [],
+    "image": "output/XM-AR-2025/images/page_0005.png"
+  },
+  {
+    "page_no": 6,
+    "text_layer_chars": 236,
+    "ocr_segments": 39,
+    "ocr_avg_confidence": 0.71,
+    "ocr_low_conf_segments": 39,
+    "ocr_text_head": "小米集团\n公司瓷料\n董事會\n提名委會\n行董事\n王舜德(主席）\n林斌\n雷軍（董事長）\n蔡金青\n林斌（副董事長）\n劉德\n企業管治委眞會\n非行董事\n陳東升（主席）\n劉芹\n王舜德\n蔡金青\n蜀立非藝行董事\n聨席公司秘書\n陳東升\n王舜德\n蘇嘉敏\n蔡金青\n劉灏\n核委會\n授槿代表\n王舜德(主席）\n林斌\n劉芹\n蘇嘉敏\n陳東升\n核數師\n薪酬委會\n羅兵咸永道會計事务所\n陳東升（主席）\n熱業會计師及册公无利益實體核數師\n",
+    "metric_candidates": [],
+    "image": "output/XM-AR-2025/images/page_0006.png"
+  }
+]
