@@ -49,3 +49,7 @@ desktop.ini
 .DS_Store
 .vscode/
 .idea/
+
+# ---------- 浏览器自动化测试产物 ----------
+.playwright-cli/
+snap*.yaml
