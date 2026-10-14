@@ -21,6 +21,8 @@ env/
 # ---------- 密钥与本地配置（严禁入库）----------
 .env
 .env.*
+# 例外：配置模板不含任何真实密钥，必须入库，供评审方复现
+!.env.example
 *.key
 secrets.json
 config.local.*

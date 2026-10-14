@@ -24,8 +24,17 @@ src/agent/model_provider.py —— 大模型调用统一入口
     # 配置自检（无密钥也能跑，只打印将要调用的地址）
     python src/agent/model_provider.py
 
+    # 离线模拟自检：零密钥、零成本，验证链路是否通（不产生真实结论）
+    python src/agent/model_provider.py --profile mock --live
+
     # 实网连通性自检（需先配置密钥）
     python src/agent/model_provider.py --live
+
+    # 临时指定档案（优先级高于 .env）
+    python src/agent/model_provider.py --profile glm --live
+
+    # 提一个问题看模型怎么答（需先配置密钥）
+    python src/agent/model_provider.py --ask "只回复两个字：正常"
 
 在代码中使用：
     from src.agent.model_provider import ModelProvider
@@ -81,13 +90,14 @@ PROFILES: Dict[str, Dict[str, Any]] = {
         "doc": "https://help.aliyun.com/zh/model-studio/",
     },
     "glm": {
-        "vendor": "智谱 AI",
+        "vendor": "智谱 AI（BigModel）",
         "model": "glm-4-flash",
         "base_url": "https://open.bigmodel.cn/api/paas/v4",
         "api_key_env": "ZHIPUAI_API_KEY",
         "need_key": True,
-        "note": "备用 2。有免费额度，适合早期联调。",
-        "doc": "https://open.bigmodel.cn/dev/api",
+        "note": "【当前开发期启用】官方承诺永久免费的对话模型，128K 上下文，"
+                "OpenAI 协议兼容。注册并实名认证后在 open.bigmodel.cn 创建密钥即可。",
+        "doc": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4-flash-250414",
     },
     "kimi": {
         "vendor": "月之暗面 Kimi",
@@ -107,8 +117,19 @@ PROFILES: Dict[str, Dict[str, Any]] = {
         "note": "离线兜底。现场演示断网时降级使用，准确率会下降。",
         "doc": "https://ollama.com/",
     },
+    "mock": {
+        "vendor": "离线模拟（Mock）",
+        "model": "mock-echo",
+        "base_url": "",
+        "api_key_env": "",
+        "need_key": False,
+        "note": "【仅供开发自检】不联网、零成本、输出固定结构，用于验证代码链路是否连通。"
+                "返回结果带 _mock 标记，严禁用于评测、演示或写入正式结论。",
+        "doc": "",
+    },
 }
 
+# 代码层默认档案。实际运行以 .env 中的 FINCHECK_LLM_PROFILE 为准。
 DEFAULT_PROFILE = "deepseek"
 
 
@@ -165,6 +186,11 @@ class ModelConfig:
     def api_key(self) -> str:
         return os.environ.get(self.api_key_env, "").strip() if self.api_key_env else ""
 
+    @property
+    def is_mock(self) -> bool:
+        """是否为离线模拟档案。写入日志时据此标注，防止与真实模型混淆。"""
+        return self.profile == "mock"
+
     def has_key(self) -> bool:
         return bool(self.api_key) or not self.need_key
 
@@ -176,19 +202,21 @@ class ModelConfig:
             "model": self.model,
             "endpoint": self.endpoint,
             "temperature": self.temperature,
+            "is_mock": self.is_mock,
         }
 
     def display(self) -> str:
         key_state = "已配置" if self.api_key else ("不需要" if not self.need_key else "未配置")
-        return (
-            f"档案     : {self.profile}\n"
-            f"厂商     : {self.vendor}\n"
-            f"型号     : {self.model}\n"
-            f"接口地址 : {self.endpoint}\n"
-            f"密钥变量 : {self.api_key_env or '（不需要）'}  状态：{key_state}\n"
-            f"温度/上限: temperature={self.temperature}, max_tokens={self.max_tokens}\n"
-            f"超时/重试: timeout={self.timeout}s, max_retries={self.max_retries}"
-        )
+        lines = [
+            f"档案     : {self.profile}" + ("   ⚠ 离线模拟，不产生真实结论" if self.is_mock else ""),
+            f"厂商     : {self.vendor}",
+            f"型号     : {self.model}",
+            f"接口地址 : {self.endpoint if self.base_url else '（离线模拟，不联网）'}",
+            f"密钥变量 : {self.api_key_env or '（不需要）'}  状态：{key_state}",
+            f"温度/上限: temperature={self.temperature}, max_tokens={self.max_tokens}",
+            f"超时/重试: timeout={self.timeout}s, max_retries={self.max_retries}",
+        ]
+        return "\n".join(lines)
 
 
 # ============================================================
@@ -241,6 +269,10 @@ class ModelProvider:
         json_mode: bool = False,
     ) -> str:
         """发起一次对话补全，返回助手回复的纯文本。"""
+        # 离线模拟档案：不联网、零成本，仅用于验证链路连通性
+        if self.cfg.is_mock:
+            return self._mock_reply(messages, json_mode)
+
         payload: Dict[str, Any] = {
             "model": self.cfg.model,
             "messages": messages,
@@ -251,11 +283,43 @@ class ModelProvider:
         if json_mode:
             payload["response_format"] = {"type": "json_object"}
 
-        data = self._post_with_retry(payload)
+        try:
+            data = self._post_with_retry(payload)
+        except RuntimeError as exc:
+            # 兼容性降级：部分厂商/型号不支持 response_format，去掉后重试一次
+            if json_mode and "HTTP 400" in str(exc):
+                payload.pop("response_format", None)
+                data = self._post_with_retry(payload)
+            else:
+                raise
         try:
             return data["choices"][0]["message"]["content"]
         except (KeyError, IndexError, TypeError) as exc:
             raise RuntimeError(f"响应结构异常，无法取出内容：{json.dumps(data, ensure_ascii=False)[:400]}") from exc
+
+    @staticmethod
+    def _mock_reply(messages: List[Dict[str, str]], json_mode: bool) -> str:
+        """离线模拟回复：内容固定、可复现，且显式标记为 mock。"""
+        n = len(messages or [])
+        last = (messages[-1].get("content", "") if messages else "") or ""
+        if json_mode:
+            return json.dumps(
+                {
+                    "_mock": True,
+                    "note": "离线模拟输出，未调用任何真实模型；仅用于验证数据链路，"
+                            "不得用于评测、演示或写入正式核查结论。",
+                    "received_messages": n,
+                    "last_message_preview": last[:80],
+                    "status": "unverifiable",
+                    "reason": "mock 档案不进行真实判定",
+                },
+                ensure_ascii=False,
+            )
+        return (
+            f"[MOCK] 离线模拟回复：收到 {n} 条消息，未调用任何真实模型。\n"
+            f"末条消息预览：{last[:80]}\n"
+            f"如需真实判定，请在 .env 中填入密钥，并把 FINCHECK_LLM_PROFILE 设为 glm 或 deepseek。"
+        )
 
     def chat_json(
         self,
@@ -351,32 +415,60 @@ def parse_json_loose(text: str) -> Dict[str, Any]:
 # ============================================================
 
 def _print_profiles() -> None:
+    load_dotenv()
     print("=" * 70)
     print("可用模型档案")
     print("=" * 70)
     for name, p in PROFILES.items():
-        mark = " ← 默认" if name == DEFAULT_PROFILE else ""
+        mark = " ← 代码默认" if name == DEFAULT_PROFILE else ""
+        endpoint = p["base_url"].rstrip("/") + "/chat/completions" if p["base_url"] else "（离线模拟，不联网）"
         print(f"\n[{name}]{mark}")
         print(f"  厂商     : {p['vendor']}")
         print(f"  型号     : {p['model']}")
-        print(f"  接口     : {p['base_url'].rstrip('/') + '/chat/completions'}")
+        print(f"  接口     : {endpoint}")
         print(f"  密钥变量 : {p['api_key_env'] or '（不需要）'}")
         print(f"  说明     : {p['note']}")
     print()
+    print("提示：实际启用哪个档案，以 .env 中的 FINCHECK_LLM_PROFILE 为准（当前 = "
+          + (os.environ.get("FINCHECK_LLM_PROFILE") or DEFAULT_PROFILE) + "）。")
 
 
-def _selftest(live: bool) -> int:
-    provider = ModelProvider.from_env()
+def _selftest(live: bool, profile: Optional[str] = None, ask: Optional[str] = None) -> int:
+    provider = ModelProvider.from_env(profile)
     print("=" * 70)
     print("FinCheck 模型接入自检")
     print("=" * 70)
     print(provider.cfg.display())
     print("-" * 70)
 
+    if ask:
+        print(f"提问：{ask}")
+        try:
+            reply = provider.chat([{"role": "user", "content": ask}], max_tokens=512)
+        except Exception as exc:
+            print(f"结果：调用失败 —— {exc}")
+            print("=" * 70)
+            return 1
+        print(f"回复：{reply.strip()}")
+        print(f"溯源：{json.dumps(provider.info(), ensure_ascii=False)}")
+        print("=" * 70)
+        return 0
+
+    if provider.cfg.is_mock:
+        print("结果：离线模拟档案。链路检查 ——")
+        text = provider.chat([{"role": "user", "content": "（模拟请求）"}])
+        obj = provider.chat_json([{"role": "user", "content": "（模拟请求）"}])
+        print(f"  文本返回：{text.splitlines()[0]}")
+        print(f"  JSON 返回：{json.dumps(obj, ensure_ascii=False)[:120]} ...")
+        print("  说明：以上为 mock 输出，未调用任何真实模型，不得用于评测或展示。")
+        print("=" * 70)
+        return 0
+
     if not provider.cfg.has_key():
         print("结果：配置结构正确，但未配置密钥，已跳过实网调用。")
         print("     这不影响开发——所有不需要模型的模块都可正常运行。")
         print("     配置密钥后执行：python src/agent/model_provider.py --live")
+        print("     想零成本先验证链路：python src/agent/model_provider.py --profile mock --live")
         print("=" * 70)
         return 0
 
@@ -406,8 +498,23 @@ def _selftest(live: bool) -> int:
 
 
 if __name__ == "__main__":
-    args = set(sys.argv[1:])
+    argv = sys.argv[1:]
+    args = set(argv)
+
+    def _opt(name: str) -> Optional[str]:
+        if name in argv:
+            i = argv.index(name)
+            if i + 1 < len(argv) and not argv[i + 1].startswith("--"):
+                return argv[i + 1]
+        return None
+
     if "--list" in args:
         _print_profiles()
         sys.exit(0)
-    sys.exit(_selftest(live="--live" in args))
+    sys.exit(
+        _selftest(
+            live="--live" in args,
+            profile=_opt("--profile"),
+            ask=_opt("--ask"),
+        )
+    )

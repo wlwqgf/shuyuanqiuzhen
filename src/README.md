@@ -31,7 +31,7 @@ src/
 ├── ingest/                【入口】材料解析与结构化 …… owner: A
 │   └── extract.py         PDF → 文字 / 图片 / 页级索引（待建；当前由 src/01_extract.py 承担）
 ├── agent/                 【大脑】编排与语义判定 …… owner: A
-│   └── model_provider.py  大模型调用统一入口（已完成）
+│   └── model_provider.py  大模型调用统一入口（多厂商档案 + 离线 mock 自检）
 ├── rules/                 【裁判】确定性校验规则 …… owner: B
 │   └── (待建)             勾稽、单位、口径、估值倍数重算
 ├── vision/                【眼睛】图像与 OCR …… owner: B
@@ -59,6 +59,7 @@ src/
 系统的"大脑"。负责把原始材料组装成断言、调用大模型做语义判定、把规则层结论与语义层结论合并、生成改写建议、维护人工复核队列。
 
 - `model_provider.py`：大模型调用的**唯一**入口。业务代码不得出现任何厂商接口地址。
+  可用档案：`glm`（开发期默认，永久免费）、`deepseek`（决赛主力）、`qwen` / `kimi`（备选）、`ollama`（离线兜底）、`mock`（离线自检，**不得用于评测与展示**）。切换只改 `.env` 中的 `FINCHECK_LLM_PROFILE`，代码不动。选型依据见 `docs/tech_stack.md` §4。
 - 待建：`orchestrator.py`（主流程编排）、`extractor.py`（LLM 断言抽取）、`verifier.py`（语义核验与证据分级）。
 
 **`rules/` —— 确定性校验（owner: B）**
@@ -160,7 +161,7 @@ A 为集成负责人，每日合并前必须跑通一次端到端。`src/common/
 | `common/trace_index.py` | ✅ 已完成（页级溯源索引，自检通过） |
 | `common/logging_util.py` | ✅ 已完成（trace.jsonl 执行日志，自检通过） |
 | `ingest/extract.py` | ⬜ 待建（当前由 v0 原型 `src/01_extract.py` 承担，解析链路已验证可用） |
-| `agent/model_provider.py` | ✅ 已完成（配置自检通过） |
+| `agent/model_provider.py` | ✅ 已完成（多档案 + 离线 mock，配置自检通过；开发期默认 GLM-4-Flash） |
 | `agent/orchestrator.py` | ⬜ 待建 |
 | `rules/` | ⬜ 待建（B） |
 | `vision/` | ⬜ 待建（B） |
