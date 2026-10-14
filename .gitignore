@@ -27,6 +27,8 @@ env/
 secrets.json
 config.local.*
 config.local.py
+# GitHub API 备用推送通道的 token 文件（tools/push_via_api.py 读取，用完即删）
+.ghtoken
 
 # ---------- 运行产出（体积大，可随时由脚本重新生成）----------
 output/*/images/
