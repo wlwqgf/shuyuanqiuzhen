@@ -29,7 +29,7 @@ src/
 │   ├── trace_index.py     页级溯源索引：每条数据可回溯到原始来源页码
 │   └── logging_util.py    统一日志与 trace.jsonl 写入（可追溯性要求）
 ├── ingest/                【入口】材料解析与结构化 …… owner: A
-│   └── extract.py         PDF → 文字 / 图片 / 页级索引（v0 原型已可用）
+│   └── extract.py         PDF → 文字 / 图片 / 页级索引（待建；当前由 src/01_extract.py 承担）
 ├── agent/                 【大脑】编排与语义判定 …… owner: A
 │   └── model_provider.py  大模型调用统一入口（已完成）
 ├── rules/                 【裁判】确定性校验规则 …… owner: B
@@ -157,10 +157,10 @@ A 为集成负责人，每日合并前必须跑通一次端到端。`src/common/
 | 模块 | 状态 |
 |---|---|
 | `common/schema.py` | ✅ 已完成（数据契约 v1，已冻结） |
-| `common/trace_index.py` | ✅ 已完成 |
-| `common/logging_util.py` | ✅ 已完成 |
-| `ingest/extract.py` | ✅ 已完成（v0 原型可用） |
-| `agent/model_provider.py` | ✅ 已完成 |
+| `common/trace_index.py` | ✅ 已完成（页级溯源索引，自检通过） |
+| `common/logging_util.py` | ✅ 已完成（trace.jsonl 执行日志，自检通过） |
+| `ingest/extract.py` | ⬜ 待建（当前由 v0 原型 `src/01_extract.py` 承担，解析链路已验证可用） |
+| `agent/model_provider.py` | ✅ 已完成（配置自检通过） |
 | `agent/orchestrator.py` | ⬜ 待建 |
 | `rules/` | ⬜ 待建（B） |
 | `vision/` | ⬜ 待建（B） |

@@ -1,0 +1,78 @@
+{
+  "doc_id": "SAMPLE-AR-2024",
+  "source_file": "星野智造_2024年年度报告_节选_合成样本.pdf",
+  "sha256": "f417e011f1a5acbfe710aeb13268dda356b2e0b86e1661930013682dae59a405",
+  "page_count": 5,
+  "extract_dir": "output/星野智造_2024年年度报告_节选_合成样本",
+  "created_at": "2026-10-14T08:56:28+08:00",
+  "pages": [
+    {
+      "page_no": 1,
+      "page_type": "text",
+      "text_path": "output/星野智造_2024年年度报告_节选_合成样本/text/page_0001.txt",
+      "image_path": "output/星野智造_2024年年度报告_节选_合成样本/images/page_0001.png",
+      "char_start": 0,
+      "char_end": 128,
+      "char_count": 128,
+      "has_text_layer": true,
+      "table_count": 0,
+      "ocr_confidence": -1.0,
+      "note": ""
+    },
+    {
+      "page_no": 2,
+      "page_type": "text",
+      "text_path": "output/星野智造_2024年年度报告_节选_合成样本/text/page_0002.txt",
+      "image_path": "output/星野智造_2024年年度报告_节选_合成样本/images/page_0002.png",
+      "char_start": 129,
+      "char_end": 411,
+      "char_count": 282,
+      "has_text_layer": true,
+      "table_count": 0,
+      "ocr_confidence": -1.0,
+      "note": ""
+    },
+    {
+      "page_no": 3,
+      "page_type": "text",
+      "text_path": "output/星野智造_2024年年度报告_节选_合成样本/text/page_0003.txt",
+      "image_path": "output/星野智造_2024年年度报告_节选_合成样本/images/page_0003.png",
+      "char_start": 412,
+      "char_end": 767,
+      "char_count": 355,
+      "has_text_layer": true,
+      "table_count": 0,
+      "ocr_confidence": -1.0,
+      "note": ""
+    },
+    {
+      "page_no": 4,
+      "page_type": "scanned",
+      "text_path": "output/星野智造_2024年年度报告_节选_合成样本/text/page_0004.txt",
+      "image_path": "output/星野智造_2024年年度报告_节选_合成样本/images/page_0004.png",
+      "char_start": 768,
+      "char_end": 768,
+      "char_count": 0,
+      "has_text_layer": false,
+      "table_count": 0,
+      "ocr_confidence": -1.0,
+      "note": "无文字层，证据须经 OCR，等级受限于 B/C"
+    },
+    {
+      "page_no": 5,
+      "page_type": "chart",
+      "text_path": "output/星野智造_2024年年度报告_节选_合成样本/text/page_0005.txt",
+      "image_path": "output/星野智造_2024年年度报告_节选_合成样本/images/page_0005.png",
+      "char_start": 769,
+      "char_end": 791,
+      "char_count": 22,
+      "has_text_layer": true,
+      "table_count": 0,
+      "ocr_confidence": -1.0,
+      "note": "文字稀少且含图片，疑似图表页，数值须反推，一律 C 级证据"
+    }
+  ],
+  "notes": [
+    "页面类型由解析产物自动推断（文字量、表格数、图片存在性）；真实材料到位后须结合图像覆盖率等信息校准，详见 output/run_logs/01_extract_验证报告.md 发现一。"
+  ]
+}
