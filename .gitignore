@@ -1,0 +1,49 @@
+# ============================================================
+# 数据一定队 · FinCheck 仓库忽略规则
+# 原则：只提交"代码 + 文档 + 合成样本"，不提交原始材料与运行产出
+# ============================================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---------- 虚拟环境 ----------
+# 本项目 venv 建在 .workbuddy/binaries 下，不在仓库内；
+# 此处仍做排除，防止他人误把 venv 提交进来。
+.venv/
+venv/
+env/
+
+# ---------- 密钥与本地配置（严禁入库）----------
+.env
+.env.*
+*.key
+secrets.json
+config.local.*
+config.local.py
+
+# ---------- 运行产出（体积大，可随时由脚本重新生成）----------
+output/*/images/
+output/*/text/
+output/*/ocr/
+*.log
+
+# ---------- 原始材料（体积大 + 版权受限）----------
+# 不入库；来源、链接、哈希统一登记在 data/raw/SOURCES.md，
+# 评审方可据此自行下载并校验，满足"数据来源可核验"要求。
+data/raw/*
+!data/raw/SOURCES.md
+!data/raw/.gitkeep
+data/images/
+data/ocr/
+
+# ---------- 系统与编辑器 ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
