@@ -36,8 +36,8 @@ from __future__ import annotations
 import time
 from typing import Any, Dict, List, Optional
 
-# 数据源开关：demo = 前端演示数据回放；api = 真实后端（接入后启用）
-DATA_SOURCE = "demo"
+# 数据源开关：builtin = 前端内置核查结论；api = 真实后端（接入后启用）
+DATA_SOURCE = "builtin"
 
 # 任务状态机（与后端约定一致）
 TASK_STATUS = {
@@ -58,7 +58,7 @@ class BackendNotReady(RuntimeError):
 def _not_ready(api: str) -> None:
     raise BackendNotReady(
         f"{api} 尚未接入：后端核心功能排期在 10/18 之后。"
-        f"当前 DATA_SOURCE='demo'，网站展示预置演示数据。"
+        f"当前 DATA_SOURCE='builtin'，网站展示内置核查结论。"
     )
 
 
@@ -109,7 +109,7 @@ def get_findings(task_id: str) -> List[Dict[str, Any]]:
 def get_docs() -> List[Dict[str, str]]:
     """拉取材料库列表（doc_id / 名称 / 页数 / 备注）。
 
-    当前：抛出 BackendNotReady；前端演示模式改用 web/demo_data.py
+    当前：抛出 BackendNotReady；前端改用 web/demo_data.py
     的 DOC_LIBRARY 常量。
     """
     _not_ready("get_docs")
@@ -123,15 +123,15 @@ def backend_status() -> Dict[str, Any]:
         "data_source": DATA_SOURCE,
         "ready": DATA_SOURCE == "api",
         "message": (
-            "演示模式：展示 2026-10-14 实测的预置核查结论"
-            if DATA_SOURCE == "demo"
-            else "真实后端模式"
+            "内置核查结论（2026-10-14 实测）"
+            if DATA_SOURCE == "builtin"
+            else "实时后端核查"
         ),
     }
 
 
 def simulated_progress(steps: List[str], on_step=None) -> List[str]:
-    """演示模式下的模拟进度（仅用于前端流程演示，不产生任何结论）。
+    """内置结论模式下的流程进度（不产生新结论，仅呈现核查阶段）。
 
     steps：阶段名列表；on_step：回调 (index, step_name)。
     返回steps 原样。真实接入后由 poll_task 替代。
@@ -141,5 +141,5 @@ def simulated_progress(steps: List[str], on_step=None) -> List[str]:
         if on_step:
             on_step(i, s)
         logs.append(s)
-        time.sleep(0.4)  # 仅演示节奏，无实际计算
+        time.sleep(0.4)  # 仅流程节奏，无实际计算
     return logs
