@@ -555,11 +555,9 @@ def render_footer() -> None:
         <div class="footer">
           <div class="row">
             <div><b>{APP_FULL_NAME}</b> · 数据一定队</div>
-            <div>2026 北京市大学生金融人工智能竞赛 · 选题五</div>
           </div>
           <div class="row" style="margin-top:6px;">
             <div>对研究报告中的财务断言逐条回溯至上市公司年报原文，证据链完整可溯</div>
-            <div>GitHub: wlwqgf/shuyuanqiuzhen</div>
           </div>
         </div>
         """,
